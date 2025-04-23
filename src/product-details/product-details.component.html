@@ -6,9 +6,9 @@
         <div class="detail-info">
           <h3>{{product.name}}</h3>
           <p class="description">{{product.description}}</p>
-          <p class="price">{{product.price | currency:'EUR':'symbol':'1.2-2'}}</p>
+          <p class="price">Price:{{product.price | currency:'EUR':'symbol':'1.2-2'}}</p>
           <p class="quantity"  [style.color]="product.quantity < 10 ? 'red' : 'green'">
-            quantity: {{product.quantity}}
+            Quantity: {{product.quantity}}
           </p>
         
         </div>
