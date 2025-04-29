@@ -1,16 +1,15 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { CatalogComponent } from '../catalog/catalog.component';
+import { RouterOutlet } from '@angular/router'
+import { RouterModule } from '@angular/router'
+import { CatalogComponentComponent } from "../catalog-component/catalog-component.component"; 
 
 @Component({
   selector: 'app-root',
-  
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, CatalogComponent],
+  standalone: true, 
+  imports: [RouterOutlet, CatalogComponentComponent, RouterModule], 
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'] 
 })
 export class AppComponent {
-  title = 'tpAngular';
+  title = 'Tp4';
 }

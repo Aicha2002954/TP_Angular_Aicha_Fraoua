@@ -1,26 +1,26 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Product } from '../models/Product';
 import { CommonModule } from '@angular/common';
-
-import { CurrencyPipe } from '@angular/common';
-import { Product } from '../app/models/product.model';
-import { CartService } from '../app/Cart/cart.service';
 
 @Component({
   selector: 'app-product-details',
   standalone: true,
-  imports: [CommonModule, CurrencyPipe],
+  imports: [CommonModule],
   templateUrl: './product-details.component.html',
   styleUrls: ['./product-details.component.css']
 })
-export class ProductDetailsComponent implements OnInit {
-  @Input() productId!: number;
-  product?: Product;
+export class ProductDetailsComponent {
+  @Input() product!: Product;
 
-  constructor(private CartService: CartService) { }
+  @Output() buy = new EventEmitter<Product>();
+  
+  @Output() showDetails = new EventEmitter<Product>();
 
-  ngOnInit(): void {
-    if (this.productId) {
-      this.product = this.CartService.getProductById(this.productId);
-    }
+  byButtonCliked(product: Product) {
+    this.buy.emit(product);
+  }
+
+  DetailClick() {
+    this.showDetails.emit(this.product);
   }
 }

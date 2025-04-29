@@ -1,0 +1,56 @@
+
+<header>
+  <h1>Collection Perfecte</h1>
+  <p>Élégance à chaque pas</p>
+  <button class="btn">Découvrir la collection</button>
+</header>
+ 
+ <div class="filters">
+  <button class="filter-btn active">Tous</button>
+  <button class="filter-btn">Talons hauts</button>
+  <button class="filter-btn">Talons moyens</button>
+  <button class="filter-btn">Escarpins</button>
+  <button class="filter-btn">Nouveautés</button>
+</div>
+
+<div class="products">
+ 
+  <ul>
+        <li class="product-item" *ngFor="let _product of products" 
+        [ngStyle]="{ 
+          'color': _product.quantity < 10 && _product.quantity > 0 ? 'red' : 'initial' 
+        }">
+      <ng-container *ngIf="_product.quantity > 0">
+        <app-product-details 
+          [product]="_product" 
+          (showDetails)="showDetails($event)">
+        </app-product-details>
+      </ng-container>
+    </li>
+  </ul>
+
+  <div *ngIf="selectedProduct" class="detail-box">
+    <h3>{{ selectedProduct.productTitle }}</h3>
+    <img [src]="selectedProduct.productImage" [alt]="selectedProduct.productID" />
+    <p><strong>Quantity:</strong> {{ selectedProduct.quantity }}</p>
+    <p><strong>Category:</strong> {{ selectedProduct.category }}</p>
+    <p><strong>Price:</strong> {{ selectedProduct.productPrice }} $</p>
+    <button class="cta" (click)="closeDetails()">Fermer</button>
+  </div>
+</div>
+<footer>
+
+  <div class="social-icons">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-pinterest"></i></a>
+  </div>
+
+  <div class="copyright">
+      <p>© 2025 Perfecto. Tous droits réservés.</p>
+  </div>
+</footer>
+      
+
+        
+
