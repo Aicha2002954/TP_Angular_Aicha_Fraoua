@@ -36,4 +36,5 @@ export class CatalogComponentComponent implements OnInit {
   closeDetails(): void {
     this.selectedProduct = null;
   }
+
 }

@@ -14,27 +14,26 @@
 </div>
 
 <div class="products">
- 
-  <ul>
-        <li class="product-item" *ngFor="let _product of products" 
-        [ngStyle]="{ 
-          'color': _product.quantity < 10 && _product.quantity > 0 ? 'red' : 'initial' 
-        }">
+  <div class="products-container">
+    <div class="product-item" *ngFor="let _product of products"
+      [ngStyle]="{ 'color': _product.quantity < 10 && _product.quantity > 0 ? 'red' : 'initial' }">
+      
       <ng-container *ngIf="_product.quantity > 0">
         <app-product-details 
           [product]="_product" 
           (showDetails)="showDetails($event)">
         </app-product-details>
       </ng-container>
-    </li>
-  </ul>
-
+      
+    </div>
+  </div>
+  
   <div *ngIf="selectedProduct" class="detail-box">
     <h3>{{ selectedProduct.productTitle }}</h3>
     <img [src]="selectedProduct.productImage" [alt]="selectedProduct.productID" />
     <p><strong>Quantity:</strong> {{ selectedProduct.quantity }}</p>
     <p><strong>Category:</strong> {{ selectedProduct.category }}</p>
-    <p><strong>Price:</strong> {{ selectedProduct.productPrice }} $</p>
+    <p><strong>Price:</strong> {{ selectedProduct.productPrice }} </p>
     <button class="cta" (click)="closeDetails()">Fermer</button>
   </div>
 </div>
