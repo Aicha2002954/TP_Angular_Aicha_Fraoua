@@ -4,12 +4,13 @@
   gap: 20px;
   padding: 20px;
   align-items: center;
+  background-color: #fff0f0;
 }
 
 .product-card {
   width: 100%;
   max-width: 800px;
-  background-color: #fffaf5;
+  background-color: #fffafa;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -28,7 +29,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #fff0e6;
+  background-color: #ffeaea;
 }
 
 .product-image img {
@@ -36,7 +37,7 @@
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #743f46;;
+  border: 4px solid #cc3f4c;
 }
 
 .product-info {
@@ -46,16 +47,16 @@
 .product-title {
   font-size: 23px;
   margin-bottom: 8px;
-  color: #3b1f1f;
+  color: #b0303b;
   text-align: center;
-   font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .product-meta {
   display: flex;
   justify-content: space-between;
   font-size: 15px;
-  color: #5c4033;
+  color: #6b4b4b;
   padding: 0 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -64,12 +65,12 @@
   display: flex;
   justify-content: space-around;
   padding: 10px 0;
-  border-top: 1px solid #eee0d8;
+  border-top: 1px solid #f0dcdc;
 }
 
 .buy-btn {
   padding: 8px 12px;
-  background-color: #743f46;;
+  background-color: #d94f57;
   border: none;
   color: white;
   font-weight: bold;
@@ -80,5 +81,5 @@
 }
 
 .buy-btn:hover {
-  background-color:#62353b;
+  background-color: #b0303b;
 }
