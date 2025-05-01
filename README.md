@@ -52,8 +52,8 @@ For end-to-end (e2e) testing, run:
 ng e2e
 ```
 #AichaFraouaEcommerce
-<img width="937" alt="page_d'acceuil_Ecommerce" src="https://github.com/user-attachments/assets/42d4c347-100f-4c76-a7e6-d20ef8c869f4" />
-<img width="938" alt="page_detailleProduit_Ecommerce" src="https://github.com/user-attachments/assets/1fd80f16-92ea-463e-b512-6c3de54649d8" />
+<img width="940" alt="page_d'acceuil_Ecommerce" src="https://github.com/user-attachments/assets/bf2f9520-d47b-4771-8a82-784e5e0d61cc" />
+<img width="941" alt="page_detailleProduit_Ecommerce" src="https://github.com/user-attachments/assets/45509f82-17a9-4154-ae8a-495e4e252052" />
 
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
