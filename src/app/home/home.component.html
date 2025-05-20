@@ -1,0 +1,116 @@
+<!-- En-tête -->
+<header class="main-header">
+  <div class="container">
+    <div class="logo">👠 <span>passionisse</span></div>
+    <nav class="nav-links">
+      <a routerLink="/" routerLinkActive="active">🏠 Accueil</a>
+      <a routerLink="/catalog" routerLinkActive="active">📦 Catalogue</a>
+      <a routerLink="/signin" routerLinkActive="active">🔐 Connexion</a>
+      <a routerLink="/cart" routerLinkActive="active" class="cart-link">🛒 Panier <span class="cart-count">0</span></a>
+    </nav>
+  </div>
+</header>
+
+<!-- Section Hero -->
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <h1>✨ Découvrez votre élégance avec nos dernières collections ✨</h1>
+      <p>Une sélection unique, une qualité exceptionnelle et un style incomparable</p>
+      <div class="hero-buttons">
+        <a routerLink="/catalog" class="btn">Acheter maintenant</a>
+        <a routerLink="/signin" class="btn secondary">Connexion</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Produits vedettes -->
+<section class="featured">
+  <div class="container">
+    <h2 class="section-title"><span>Nos produits sélectionnés</span></h2>
+    <div class="products-grid">
+      <div class="product-card" *ngFor="let product of featuredProducts">
+        <div class="product-badge">Nouveau</div>
+        <div class="product-image-container">
+          <img [src]="product.image" [alt]="product.name" class="product-image"/>
+       
+        </div>
+        <div class="product-info">
+          <h3>{{ product.name }}</h3>
+          <div class="price-container">
+            <p class="price">{{ product.price }} MAD</p>
+            <button class="wishlist-btn">♥</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Témoignages -->
+<section class="testimonials">
+  <div class="container">
+    <h2 class="section-title"><span>Ce que disent nos clients</span></h2>
+    <div class="testimonials-container">
+      <div class="testimonial-card">
+        <div class="client-avatar">👩</div>
+        <span class="quote-icon">❝</span>
+        <p>"Des vêtements raffinés et une livraison rapide!"</p>
+        <div class="client-info">
+          <span class="client-name">Sophie M.</span>
+          <div class="client-rating">★★★★★</div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="client-avatar">👸</div>
+        <span class="quote-icon">❝</span>
+        <p>"Élégant et confortable, je recommanderai à mes amis!"</p>
+        <div class="client-info">
+          <span class="client-name">Amira K.</span>
+          <div class="client-rating">★★★★☆</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pied de page -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Passionis</h3>
+        <p class="footer-logo">👠 <span>Votre destination mode premium</span></p>
+        <div class="social-links">
+          <a href="#">📱</a>
+          <a href="#">📸</a>
+          <a href="#">💻</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Liens rapides</h3>
+        <ul>
+          <li><a routerLink="/">Accueil</a></li>
+          <li><a routerLink="/catalog">Catalogue</a></li>
+          <li><a href="#">Nouveautés</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <ul class="contact-info">
+          <li>📧 {{ 'contact@passionis.com' }}</li>
+          <li>📞 +212 6 00 00 00 00</li>
+          <li>🏠 Rue de la Mode, Casablanca</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      © 2025 Passionis - Tous droits réservés | <a href="#">Politique de confidentialité</a>
+    </div>
+  </div>
+</footer>

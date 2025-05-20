@@ -3,7 +3,10 @@ enum UserType {
     Member = "Member",
     Guest = "Guest"
 }
-
+export interface IUserCredentials {
+    email: string;
+    password: string;
+  }
 class User {
     private _firstName: String = "";
     public get firstName(): String{
@@ -77,6 +80,7 @@ class User {
         console.log("userId: " + this._userId + ", fullName: " + this.fullName());
     }
     
+
 }
 
 
