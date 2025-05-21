@@ -26,8 +26,8 @@ body {
 }
 
 .hero {
-  background: url('/assets/images/login.jpg') center/cover no-repeat;
-    width:97%;
+  background: url('/assets/images/login.png') center/cover no-repeat;
+    width:99%;
   height: 70vh;
   display: flex;
 margin-left: 10px;

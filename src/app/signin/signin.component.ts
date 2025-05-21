@@ -4,11 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { IUserCredentials } from '../../models/User';
 import { UserService } from '../user.service';
+import { RouterModule } from '@angular/router';
+import { HeaderComponent } from '../header/header.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-signin',
   templateUrl: './signin.component.html',
-  imports:[FormsModule, CommonModule],
+   standalone: true, 
+  imports: [CommonModule, RouterModule, HeaderComponent, FooterComponent,FormsModule], 
   styleUrl: './signin.component.css'
 })
 
