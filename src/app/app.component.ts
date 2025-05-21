@@ -6,7 +6,7 @@ import { CatalogComponentComponent } from "../catalog-component/catalog-componen
 @Component({
   selector: 'app-root',
   standalone: true, 
-  imports: [RouterOutlet, CatalogComponentComponent, RouterModule], 
+  imports: [RouterOutlet,CatalogComponentComponent, RouterModule], 
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] 
 })

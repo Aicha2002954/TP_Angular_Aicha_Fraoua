@@ -5,7 +5,7 @@
   <div class="container">
     <div class="hero-content">
       <h2>Découvrez votre élégance avec nos dernières collections de talons</h2>
-      <p>Une sélection unique de talons, une qualité exceptionnelle et un style incomparable</p>
+      <p>Une sélection unique, une qualité exceptionnelle et un style incomparable</p>
       <div class="hero-buttons">
         <a routerLink="/catalog" class="btn">Acheter maintenant</a>
         <a routerLink="/signin" class="btn secondary">Connexion</a>
@@ -16,19 +16,21 @@
 
 <section class="clothing-products">
   <div class="container">
-    <h2 class="section-title"><span>Collection Talons</span></h2>
+    <h2 class="section-title"><span>Collection de Talons</span></h2>
     <div class="clothing-scroll">
-      <div class="product-card" *ngFor="let product of featuredProducts">
-      
-        <img [src]="product.image" [alt]="product.name" class="product-image"/>
+
+      <!-- Boucle des produits -->
+      <div class="product-card" *ngFor="let product of products" (click)="goToSignIn()">
+        <img [src]="product.productImage" [alt]="product.productTitle" class="product-image" />
         <div class="product-info">
-          <h3>{{ product.name }}</h3>
+          <h3>{{ product.productTitle }}</h3>
           <div class="price-container">
-            <p class="price">{{ product.price }} MAD</p>
+            <p class="price">{{ product.productPrice }} MAD</p>
             <button class="wishlist-btn">♥</button>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -37,33 +39,37 @@
   <div class="container">
     <h2 class="section-title"><span>Ce que disent nos clientes</span></h2>
     <div class="testimonials-container">
+
       <div class="testimonial-card">
         <div class="client-avatar">👩</div>
         <span class="quote-icon">❝</span>
-        <p>"Des talons élégants et une livraison rapide!"</p>
+        <p>"Des talons élégants et une livraison rapide !"</p>
         <div class="client-info">
           <span class="client-name">Sophie M.</span>
           <div class="client-rating">★★★★★</div>
         </div>
       </div>
+
       <div class="testimonial-card">
         <div class="client-avatar">👸</div>
         <span class="quote-icon">❝</span>
-        <p>"Confortables et stylés, je recommande vivement!"</p>
+        <p>"Confortables et stylés, je recommande vivement !"</p>
         <div class="client-info">
           <span class="client-name">Amira K.</span>
           <div class="client-rating">★★★★☆</div>
         </div>
       </div>
+
       <div class="testimonial-card">
         <div class="client-avatar">👧</div>
         <span class="quote-icon">❝</span>
-        <p>"J'adore mes nouveaux talons, ils sont parfaits pour toutes les occasions!"</p>
+        <p>"J’adore mes nouveaux talons, ils sont parfaits pour toutes les occasions !"</p>
         <div class="client-info">
           <span class="client-name">Lina B.</span>
           <div class="client-rating">★★★★★</div>
         </div>
       </div>
+
     </div>
   </div>
 </section>

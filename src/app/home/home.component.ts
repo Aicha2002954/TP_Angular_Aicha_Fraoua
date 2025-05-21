@@ -1,4 +1,61 @@
+
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { HeaderComponent } from '../header/header.component';
+import { FooterComponent } from '../footer/footer.component';
+import { ActivatedRoute, Router, RouterLink, RouterLinkActive } from '@angular/router';
+
+@Component({
+  selector: 'app-home',
+  imports: [CommonModule, RouterModule, HeaderComponent, FooterComponent],
+  templateUrl: './home.component.html',
+  styleUrl: './home.component.css'
+})
+export class HomeComponent {
+  products: any[] = [];
+
+  constructor(private http: HttpClient, private router: Router) {}
+
+  ngOnInit(): void {
+  this.http.get<any[]>('http://localhost:3000/api/products')
+    .subscribe(data => {
+      this.products = data; 
+    }, error => {
+      console.error('Erreur de chargement des produits', error);
+    });
+}
+
+
+   goToSignIn(): void {
+    this.router.navigate(['/signin']); 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common'; 
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from '../header/header.component';
@@ -78,3 +135,4 @@ export class HomeComponent {
     
   ];
 }
+*/
