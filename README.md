@@ -51,6 +51,29 @@ For end-to-end (e2e) testing, run:
 ```bash
 ng e2e
 ```
+#AichaFraouaEcommerce
+Page d'acceuile
+<img width="928" alt="home1" src="https://github.com/user-attachments/assets/ba2daffb-417b-46a0-a545-330693ecfd52" />
+
+<img width="917" alt="home2" src="https://github.com/user-attachments/assets/8e18eb92-e462-4852-b08c-246a22ddcea4" />
+
+<img width="923" alt="home3" src="https://github.com/user-attachments/assets/30f9f184-8405-4a0f-833e-ce1fa130a2fd" />
+
+<img width="922" alt="home4" src="https://github.com/user-attachments/assets/e30a7d6b-b51a-4282-900e-6d16ecc23771" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
@@ -58,11 +81,4 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-#AichaFraouaEcommerce
-Page d'acceuile
-<img width="928" alt="home1" src="https://github.com/user-attachments/assets/ba2daffb-417b-46a0-a545-330693ecfd52" />
 
-<img width="917" alt="home2" src="https://github.com/user-attachments/assets/d06dc5a2-4594-4cf<img width="923" alt="home3" src="https://github.com/user-attachments/assets/5fe202eb-2650-4457-a543-37d0ca6fbfa5" />
-8-a8b6-01be2e4f65fe" />
-
-<img width="922" alt="home4" src="https://github.com/user-attachments/assets/e30a7d6b-b51a-4282-900e-6d16ecc23771" />
