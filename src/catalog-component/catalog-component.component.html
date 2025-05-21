@@ -13,7 +13,7 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let _product of getFilteredProducts()">
+      <div *ngFor="let _product of getFilteredProducts()">
         <div [ngStyle]="{ 'color': _product.quantity < 10 && _product.quantity > 0 ? 'red' : 'initial' }">
           <ng-container *ngIf="_product.quantity > 0">
             <app-product-details 

@@ -24,4 +24,5 @@ export class ProductDetailsComponent {
   DetailClick() {
     this.showDetails.emit(this.product);
   }
+  
 }
