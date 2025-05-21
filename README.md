@@ -82,16 +82,15 @@ Panire
 login
 <img width="914" alt="login1" src="https://github.com/user-attachments/assets/2249ad80-4c63-4ceb-afa3-746426d440a1" />
 
+<img width="916" alt="login5" src="https://github.com/user-attachments/assets/9601441f-aedb-4bde-a596-a994fbfae23b" />
 
-<img width="914" alt="login2" src="https://github.com/user-attachments/assets/c096d781-4702-47bf-abaa-eaa9668f20c5" />
 
 
 <img width="916" alt="login3" src="https://github.com/user-attachments/assets/8a70e81b-b82f-4d5f-a9ac-479498930cf5" />
 
 
 
-<img width="919" alt="login4" src="https://github.com/user-attachments/assets/fdc368a5-c06c-4ace-8b7e-bb2bec7398c6" />
-
+<img width="916" alt="login5" src="https://github.com/user-attachments/assets/57228c63-c7b6-4cc4-b6f2-35459fe117d7" />
 
 
 
