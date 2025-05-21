@@ -102,8 +102,8 @@ margin-left: 10px;
 
 
 .product-card {
-  background: #dacdcd;
-  border: 1px solid #eee;
+  background:white;
+  border: 1px solid #0c0c0c;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   transition: transform 0.3s;
@@ -141,7 +141,7 @@ margin-left: 10px;
 }
 .product-info h3 {
   font-size: 1.1rem;
-  color: #870606;
+  color: #010101;
   margin-bottom: 0.5rem;
 }
 .price-container {
@@ -199,10 +199,7 @@ margin-left: 10px;
   display: block;
   margin-top: 1rem;
 }
-.client-rating {
-  color: gold;
-  font-size: 1.2rem;
-}
+
 
 @media (max-width: 1024px) {
   .clothing-scroll {

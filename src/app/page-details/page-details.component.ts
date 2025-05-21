@@ -38,13 +38,13 @@ export class PageDetailsComponent implements OnInit {
 
  addToCart(): void {
     if (this.product) {
-      // 👇 تأكد أن quantity موجودة وغير صفر
+    
       const productToAdd = new Product(
         this.product.productID,
         this.product.productTitle,
         this.product.productPrice,
         this.product.category,
-        1,  // ← quantité par défaut
+        1,  
         this.product.productImage
       );
 
