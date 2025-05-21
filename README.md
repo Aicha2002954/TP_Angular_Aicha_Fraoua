@@ -64,9 +64,33 @@ Home
 
  Catalog
 
+<img width="920" alt="catalog1" src="https://github.com/user-attachments/assets/67fe47de-3c41-4b98-a405-639416e2ff71" />
+
+
+<img width="920" alt="catalo2" src="https://github.com/user-attachments/assets/84948288-4cc7-4187-ba1b-f8816631edf1" />
+
+
+<img width="918" alt="catalog3" src="https://github.com/user-attachments/assets/439aa93e-f2b8-4593-b470-151b695ba642" />
+
+<img width="926" alt="catalog4" src="https://github.com/user-attachments/assets/e3016414-b3f3-4600-8d38-fbd68711dd73" />
+
+Panire
+
+<img width="926" alt="panier1" src="https://github.com/user-attachments/assets/b0e3c517-226d-4d15-9428-b28e0a9632c9" />
+
+<img width="913" alt="panier2" src="https://github.com/user-attachments/assets/d23e8616-9db3-471c-ac2d-a3bc2fadcd67" />
+login
+<img width="914" alt="login1" src="https://github.com/user-attachments/assets/2249ad80-4c63-4ceb-afa3-746426d440a1" />
+
+
+<img width="914" alt="login2" src="https://github.com/user-attachments/assets/c096d781-4702-47bf-abaa-eaa9668f20c5" />
+
+
+<img width="916" alt="login3" src="https://github.com/user-attachments/assets/8a70e81b-b82f-4d5f-a9ac-479498930cf5" />
 
 
 
+<img width="919" alt="login4" src="https://github.com/user-attachments/assets/fdc368a5-c06c-4ace-8b7e-bb2bec7398c6" />
 
 
 
