@@ -38,6 +38,43 @@ export class HomeComponent {
       name: 'Talons Dorés de Soirée',
       price: 500,
       image: 'assets/images/christian_louboutin.jpg'
+    },
+    {
+      id: 5,
+      name: 'Talons Rouge Chic',
+      price: 350,
+      image: 'assets/images/Huelva_costa.jpg'
+    },
+    {
+      id: 6,
+      name: 'Talons Élégants Noirs',
+      price: 420,
+      image: 'assets/images/gucci.jpg'
+    },
+    {
+      id: 7,
+      name: 'Talons Dorés de Soirée',
+      price: 500,
+      image: 'assets/images/zara.jpg'
+    },
+     {
+      id: 8,
+      name: 'Talons Dorés de Soirée',
+      price: 500,
+      image: 'assets/images/christian_louboutin.jpg'
+    },
+     {
+      id: 9,
+      name: 'Talons Dorés de Soirée',
+      price: 500,
+      image: 'assets/images/zara.jpg'
+    },
+     {
+      id: 10,
+      name: 'Talons Dorés de Soirée',
+      price: 500,
+      image: 'assets/images/christian_louboutin.jpg'
     }
+    
   ];
 }

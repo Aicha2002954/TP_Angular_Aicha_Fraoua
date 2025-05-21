@@ -1,13 +1,13 @@
-<header class="flex justify-between items-center p-4 shadow bg-white">
-  <div class="text-2xl font-bold text-pink-600">Passionis</div>
-
-  <nav class="flex gap-6 text-gray-700">
-    <a routerLink="/home" routerLinkActive="font-bold">Home</a>
-    <a routerLink="/catalogue" routerLinkActive="font-bold">Catalogue</a>
-    <a routerLink="/login" routerLinkActive="font-bold">Connexion</a>
-    <a routerLink="/cart" routerLinkActive="font-bold" class="relative">
-      🛒
-      <span class="absolute -top-2 -right-2 bg-pink-500 text-white text-xs px-1 rounded-full">2</span>
-    </a>
-  </nav>
+<header class="main-header">
+  <div class="container">
+    <div class="logo">👠 <span>Passionisse</span></div>
+    <nav class="nav-links">
+      <a routerLink="/" routerLinkActive="active">🏠 Accueil</a>
+      <a routerLink="/catalog" routerLinkActive="active">📦 Catalogue</a>
+      <a routerLink="/signin" routerLinkActive="active">🔐 Connexion</a>
+      <a routerLink="/cart" routerLinkActive="active" class="cart-link">
+        🛒 Panier <span class="cart-count">0</span>
+      </a>
+    </nav>
+  </div>
 </header>
