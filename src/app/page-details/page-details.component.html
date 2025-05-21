@@ -1,0 +1,18 @@
+<app-header></app-header>
+
+<div class="detail-box" *ngIf="product">  
+  <img [src]="product.productImage" [alt]="product.productID" />
+
+  <div class="detail-info">
+    <h1>{{ product.productTitle }}</h1>
+    <p><span>Quantité :</span> {{ product.quantity }}</p>
+    <p><span>Catégorie :</span> {{ product.category }}</p>
+    <p><span>Prix :</span> {{ product.productPrice }} </p>
+
+    <button (click)="addToCart()" class="cta">
+      🛒 Ajouter au panier
+    </button>
+  </div>
+</div>
+
+<app-footer></app-footer>

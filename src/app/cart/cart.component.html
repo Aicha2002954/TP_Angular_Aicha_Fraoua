@@ -1,1 +1,31 @@
-<p>cart works!</p>
+<app-header></app-header>
+
+<div class="cart-container">
+  <h2>Votre Panier</h2>
+
+  <div *ngIf="cartproduct.length === 0" class="empty-cart">
+    <p>Votre panier est vide 😢</p>
+    <a [routerLink]="['/catalog']" class="back-to-shop">← Retour à la boutique</a>
+  </div>
+
+  <div *ngIf="cartproduct.length > 0">
+    <div class="cart-item" *ngFor="let product of cartproduct">
+      <img [src]="product.productImage" [alt]="product.productTitle" class="product-img"/>
+      <div class="item-info">
+        <h3>{{ product.productTitle }}</h3>
+        <p>Catégorie : {{ product.category }}</p>
+        <p>Quantité : {{product.quantity }}</p>
+        <p>Prix : {{ product.productPrice }}</p>
+        <button (click)="removeItem(product.productID)" class="remove-btn">Supprimer</button>
+      </div>
+    </div>
+
+    <div class="cart-summary">
+      <h3>Total : {{ totalPrice }} $</h3>
+      <button class="checkout-btn">Passer à la caisse</button>
+      <button (click)="clearCart()" class="clear-btn">Vider le panier</button>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
