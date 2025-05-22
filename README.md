@@ -53,7 +53,7 @@ ng e2e
 ```
 # AichaFraouaEcommercey
 
-# Home
+# Page Home
 <img width="928" alt="home1" src="https://github.com/user-attachments/assets/ba2daffb-417b-46a0-a545-330693ecfd52" />
 
 <img width="917" alt="home2" src="https://github.com/user-attachments/assets/8e18eb92-e462-4852-b08c-246a22ddcea4" />
@@ -62,7 +62,7 @@ ng e2e
 
 <img width="922" alt="home4" src="https://github.com/user-attachments/assets/e30a7d6b-b51a-4282-900e-6d16ecc23771" />
 
-# Catalog
+#  Page Catalog
 
 <img width="920" alt="catalog1" src="https://github.com/user-attachments/assets/67fe47de-3c41-4b98-a405-639416e2ff71" />
 
@@ -74,12 +74,12 @@ ng e2e
 
 <img width="926" alt="catalog4" src="https://github.com/user-attachments/assets/e3016414-b3f3-4600-8d38-fbd68711dd73" />
 
-# Panire
+#  Page Panire
 
 <img width="926" alt="panier1" src="https://github.com/user-attachments/assets/b0e3c517-226d-4d15-9428-b28e0a9632c9" />
 
 <img width="913" alt="panier2" src="https://github.com/user-attachments/assets/d23e8616-9db3-471c-ac2d-a3bc2fadcd67" />
-# login
+#  Page login
 <img width="914" alt="login1" src="https://github.com/user-attachments/assets/2249ad80-4c63-4ceb-afa3-746426d440a1" />
 
 <img width="916" alt="login5" src="https://github.com/user-attachments/assets/9601441f-aedb-4bde-a596-a994fbfae23b" />
