@@ -51,7 +51,7 @@ For end-to-end (e2e) testing, run:
 ```bash
 ng e2e
 ```
-#AichaFraouaEcommercey
+# AichaFraouaEcommercey
 
 # Home
 <img width="928" alt="home1" src="https://github.com/user-attachments/assets/ba2daffb-417b-46a0-a545-330693ecfd52" />
