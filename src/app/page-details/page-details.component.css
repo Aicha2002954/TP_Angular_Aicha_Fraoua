@@ -14,7 +14,7 @@
 
 .detail-box img {
   width: 100%;
-  max-width: 220px; /* حجم أصغر للصورة */
+  max-width: 220px; 
   height: auto;
   border-radius: 12px;
   object-fit: cover;

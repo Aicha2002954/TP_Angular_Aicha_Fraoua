@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./product-details.component.css']
 })
 export class ProductDetailsComponent {
+  
   @Input() product!: Product;
   @Input() isLowStock: boolean = false;
 

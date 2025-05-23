@@ -7,15 +7,15 @@
     <div class="product-info">
       <h3 class="product-title">{{ product.productTitle }}</h3>
       <div class="product-meta">
-        <span class="product-quantity"> Price:{{ product.productPrice }}</span>
+        <span class="product-quantity"  i18n> Price:{{ product.productPrice }}</span>
          <button class="wishlist-btn">♥</button>
        
       </div>
     </div>
     <div class="product-purchase">
-     <button class="buy-btn" [routerLink]="['/product', product.productID]">Voir Détails</button>
+     <button class="buy-btn" [routerLink]="['/product', product.productID]" i18n>Voir Détails</button>
      
-      <button class="buy-btn" (click)="byButtonCliked(product)">Acheter</button>
+      <button class="buy-btn" (click)="byButtonCliked(product)"  i18n>Acheter</button>
     </div>
   </div>
   

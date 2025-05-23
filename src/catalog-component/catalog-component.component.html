@@ -4,12 +4,24 @@
   <div class="container mt-5">
 
     <div class="filters">
-      <a routerLink="/catalog" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="button">Tous les articles</a>
-      <a routerLink="/catalog" [queryParams]="{filter:'hauts'}" routerLinkActive="active" class="button">Talons hauts</a>
-      <a routerLink="/catalog" [queryParams]="{filter:'sandales'}" routerLinkActive="active" class="button">Sandales plates</a>
-      <a routerLink="/catalog" [queryParams]="{filter:'Chaussures'}" routerLinkActive="active" class="button">Chaussures plates</a>
-            <a routerLink="/catalog" [queryParams]="{filter:'compenses'}" routerLinkActive="active" class="button">Chaussures compensées</a>
-      <a routerLink="/catalog" [queryParams]="{filter:'bottes'}" routerLinkActive="active" class="button">Bottes branchées</a>
+      <a routerLink="/catalog" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="button" i18n>
+        Tous les articles
+      </a>
+      <a routerLink="/catalog" [queryParams]="{filter:'hauts'}" routerLinkActive="active" class="button" i18n>
+        Talons hauts
+      </a>
+      <a routerLink="/catalog" [queryParams]="{filter:'sandales'}" routerLinkActive="active" class="button" i18n>
+        Sandales plates
+      </a>
+      <a routerLink="/catalog" [queryParams]="{filter:'Chaussures'}" routerLinkActive="active" class="button" i18n>
+        Chaussures plates
+      </a>
+      <a routerLink="/catalog" [queryParams]="{filter:'compenses'}" routerLinkActive="active" class="button" i18n>
+        Chaussures compensées
+      </a>
+      <a routerLink="/catalog" [queryParams]="{filter:'bottes'}" routerLinkActive="active" class="button" i18n>
+        Bottes branchées
+      </a>
     </div>
 
     <div class="row">

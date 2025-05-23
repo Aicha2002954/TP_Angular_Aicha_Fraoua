@@ -5,11 +5,12 @@
 
   <div class="detail-info">
     <h1>{{ product.productTitle }}</h1>
-    <p><span>Quantité :</span> {{ product.quantity }}</p>
-    <p><span>Catégorie :</span> {{ product.category }}</p>
-    <p><span>Prix :</span> {{ product.productPrice }} </p>
+    
+    <p><span i18n>Quantité :</span> {{ product.quantity }}</p>
+    <p><span i18n>Catégorie :</span> {{ product.category }}</p>
+    <p><span i18n>Prix :</span> {{ product.productPrice }}</p>
 
-    <button (click)="addToCart()" class="cta">
+    <button (click)="addToCart()" class="cta" i18n>
       🛒 Ajouter au panier
     </button>
   </div>

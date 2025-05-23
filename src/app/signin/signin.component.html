@@ -3,30 +3,58 @@
 <div class="container">
   <div class="form-box">
     <form #signInForm="ngForm" class="form" (ngSubmit)="signIn()">
-      <div class="sign-in">Connexion</div>
-      <div class="sub-text">pour découvrir plus...</div>
+      <div class="sign-in" i18n>Connexion</div>
+      <div class="sub-text" i18n>pour découvrir plus...</div>
 
-      <input name="email" required email #email="ngModel" [(ngModel)]="credentials.email" placeholder="Adresse e-mail"
-        type="email" />
-      <em class="error" *ngIf="email.errors?.['required'] && email.touched">L'e-mail est requis</em>
-      <em class="error" *ngIf="email.errors?.['email'] && email.touched">Le format de l'e-mail est invalide</em>
+      <input
+        name="email"
+        required
+        email
+        #email="ngModel"
+        [(ngModel)]="credentials.email"
+        placeholder="Adresse e-mail"
+        type="email"
+        i18n-placeholder
+      />
+      <em class="error" *ngIf="email.errors?.['required'] && email.touched" i18n>
+        L'e-mail est requis
+      </em>
+      <em class="error" *ngIf="email.errors?.['email'] && email.touched" i18n>
+        Le format de l'e-mail est invalide
+      </em>
 
-      <input name="password" required #password="ngModel" [(ngModel)]="credentials.password" placeholder="Mot de passe"
-        type="password" />
-      <em class="error" *ngIf="password.invalid && password.touched">Le mot de passe est requis</em>
+      <input
+        name="password"
+        required
+        #password="ngModel"
+        [(ngModel)]="credentials.password"
+        placeholder="Mot de passe"
+        type="password"
+        i18n-placeholder
+      />
+      <em class="error" *ngIf="password.invalid && password.touched" i18n>
+        Le mot de passe est requis
+      </em>
 
       <div class="buttons">
-        <button type="submit" [disabled]="signInForm.form.invalid" class="button cta">Se connecter</button>
+        <button
+          type="submit"
+          [disabled]="signInForm.form.invalid"
+          class="button cta"
+          i18n
+        >
+          Se connecter
+        </button>
       </div>
 
-      <div class="signInError" *ngIf="signInError">
+      <div class="signInError" *ngIf="signInError" i18n>
         Erreur de connexion ! Veuillez réessayer.
       </div>
     </form>
   </div>
 
   <div class="image-box">
-    <img src="assets/images/1.jpg" alt="illustration de connexion" />
+    <img src="assets/images/1.jpg" alt="illustration de connexion" i18n-alt />
   </div>
 </div>
 

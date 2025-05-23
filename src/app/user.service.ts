@@ -13,6 +13,6 @@ export class UserService {
   constructor(private http: HttpClient) {}
 
   signIn(credentials: IUserCredentials): Observable<any> {
-    return this.http.post(`${this.apiUrl}/signin`, credentials);
+    return this.http.post(`${this.apiUrl}/api/signin`, credentials);
   }
 }

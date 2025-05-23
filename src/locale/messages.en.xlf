@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2822967322011081981" datatype="html">
+        <source>Votre Panier</source>
+        <target>Your Cart</target>
+      </trans-unit>
+      <trans-unit id="484145147501215213" datatype="html">
+        <source>Votre panier est vide 😢</source>
+        <target>Your cart is empty 😢</target>
+      </trans-unit>
+      <trans-unit id="6013230613916502254" datatype="html">
+        <source>← Retour à la boutique</source>
+        <target>← Back to shop</target>
+      </trans-unit>
+      <trans-unit id="2587730847036680187" datatype="html">
+        <source>Catégorie :</source>
+        <target>Category:</target>
+      </trans-unit>
+      <trans-unit id="2459195812653368885" datatype="html">
+        <source>Quantité :</source>
+        <target>Quantity:</target>
+      </trans-unit>
+      <trans-unit id="2854877575652905847" datatype="html">
+        <source>Prix :</source>
+        <target>Price:</target>
+      </trans-unit>
+      <trans-unit id="180879386399550529" datatype="html">
+        <source>Supprimer</source>
+        <target>Remove</target>
+      </trans-unit>
+      <trans-unit id="4602896896635567393" datatype="html">
+        <source>Total :</source>
+        <target>Total:</target>
+      </trans-unit>
+      <trans-unit id="1158691546008589506" datatype="html">
+        <source>Passer à la caisse</source>
+        <target>Checkout</target>
+      </trans-unit>
+      <trans-unit id="2203563724503749675" datatype="html">
+        <source>Vider le panier</source>
+        <target>Empty cart</target>
+      </trans-unit>
+      <trans-unit id="2127585456967153405" datatype="html">
+        <source>✨ Passionis</source>
+        <target>✨ Passionis</target>
+      </trans-unit>
+      <trans-unit id="8782380213995806688" datatype="html">
+        <source>Explorez la mode avec élégance. Votre destination pour les tendances de demain.</source>
+        <target>Explore fashion with elegance. Your destination for tomorrow’s trends.</target>
+      </trans-unit>
+      <trans-unit id="1348774649041038169" datatype="html">
+        <source>Navigation</source>
+        <target>Navigation</target>
+      </trans-unit>
+      <trans-unit id="3476583629594890489" datatype="html">
+        <source>Accueil</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="2904068797291466876" datatype="html">
+        <source>Catalogue</source>
+        <target>Catalog</target>
+      </trans-unit>
+      <trans-unit id="8479815901423747189" datatype="html">
+        <source>Nouveautés</source>
+        <target>New Arrivals</target>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="4235980661575124102" datatype="html">
+        <source>📧 contactpassionis.com</source>
+        <target>📧 contactpassionis.com</target>
+      </trans-unit>
+      <trans-unit id="2815806502244530207" datatype="html">
+        <source>📞 +212 6 00 00 00 00</source>
+        <target>📞 +212 6 00 00 00 00</target>
+      </trans-unit>
+      <trans-unit id="4594451899891205014" datatype="html">
+        <source>🏠 Casablanca, Maroc</source>
+        <target>🏠 Casablanca, Morocco</target>
+      </trans-unit>
+      <trans-unit id="1200118063823492113" datatype="html">
+        <source>© 2025 Passionis. Tous droits réservés —</source>
+        <target>© 2025 Passionis. All rights reserved —</target>
+      </trans-unit>
+      <trans-unit id="5491665272873323758" datatype="html">
+        <source>Politique de confidentialité</source>
+        <target>Privacy Policy</target>
+      </trans-unit>
+      <trans-unit id="4060602087107576281" datatype="html">
+        <source>Passionisse</source>
+        <target>Passionisse</target>
+      </trans-unit>
+      <trans-unit id="8545041481388133142" datatype="html">
+        <source>🏠 Accueil</source>
+        <target>🏠 Home</target>
+      </trans-unit>
+      <trans-unit id="7247182308017789102" datatype="html">
+        <source>📦 Catalogue</source>
+        <target>📦 Catalog</target>
+      </trans-unit>
+      <trans-unit id="7351968411222874103" datatype="html">
+        <source>🔐 Connexion</source>
+        <target>🔐 Login</target>
+      </trans-unit>
+      <trans-unit id="6577794266082036512" datatype="html">
+        <source> 🛒 Panier <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;cart-count&quot;&gt;"/>0<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target> 🛒 Cart <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;cart-count&quot;&gt;"/>0<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+      </trans-unit>
+      <trans-unit id="3280632550628885299" datatype="html">
+        <source>Découvrez votre élégance avec nos dernières collections de talons</source>
+        <target>Discover your elegance with our latest heel collections</target>
+      </trans-unit>
+      <trans-unit id="6785880180119951065" datatype="html">
+        <source>Une sélection unique, une qualité exceptionnelle et un style incomparable</source>
+        <target>A unique selection, exceptional quality, and incomparable style</target>
+      </trans-unit>
+      <trans-unit id="7079597122499354381" datatype="html">
+        <source>Acheter maintenant</source>
+        <target>Buy Now</target>
+      </trans-unit>
+      <trans-unit id="6103118278620987967" datatype="html">
+        <source>Connexion</source>
+        <target>Login</target>
+      </trans-unit>
+      <trans-unit id="2886113216503773632" datatype="html">
+        <source>Collection de Talons</source>
+        <target>Heel Collection</target>
+      </trans-unit>
+      <trans-unit id="5508631648098464705" datatype="html">
+        <source>♥</source>
+        <target>♥</target>
+      </trans-unit>
+      <trans-unit id="4684806726009647570" datatype="html">
+        <source>Ce que disent nos clientes</source>
+        <target>What our customers say</target>
+      </trans-unit>
+      <trans-unit id="5031687108577566867" datatype="html">
+        <source>"Des talons élégants et une livraison rapide !"</source>
+        <target>"Elegant heels and fast delivery!"</target>
+      </trans-unit>
+      <trans-unit id="3357034189466652124" datatype="html">
+        <source>"Confortables et stylés, je recommande vivement !"</source>
+        <target>"Comfortable and stylish, highly recommended!"</target>
+      </trans-unit>
+      <trans-unit id="2794085883886082329" datatype="html">
+        <source>"J’adore mes nouveaux talons, ils sont parfaits pour toutes les occasions !"</source>
+        <target>"I love my new heels, perfect for all occasions!"</target>
+      </trans-unit>
+      <trans-unit id="4928688545159032433" datatype="html">
+        <source> 🛒 Ajouter au panier </source>
+        <target> 🛒 Add to cart </target>
+      </trans-unit>
+      <trans-unit id="8214772049839778783" datatype="html">
+        <source>pour découvrir plus...</source>
+        <target>to discover more...</target>
+      </trans-unit>
+      <trans-unit id="3053022756258517667" datatype="html">
+        <source>Adresse e-mail</source>
+        <target>Email Address</target>
+      </trans-unit>
+     
+<trans-unit id="4119947680148031343" datatype="html">
+  <source> L'e-mail est requis </source>
+  <target> Email is required </target>
+</trans-unit>
+
+<trans-unit id="7817747238992958817" datatype="html">
+  <source> Price:<x id="INTERPOLATION" equiv-text="{{ product.productPrice }}"/></source>
+  <target> Price:<x id="INTERPOLATION" equiv-text="{{ product.productPrice }}"/></target>
+</trans-unit>
+
+<trans-unit id="4631486882932262254" datatype="html">
+  <source>Voir Détails</source>
+  <target>View Details</target>
+</trans-unit>
+
+<trans-unit id="3000503124039226277" datatype="html">
+  <source>Acheter</source>
+  <target>Buy</target>
+</trans-unit>
+
+<trans-unit id="2635696544357083296" datatype="html">
+  <source> Tous les articles </source>
+  <target> All items </target>
+</trans-unit>
+
+<trans-unit id="623535971291205515" datatype="html">
+  <source> Talons hauts </source>
+  <target> High heels </target>
+</trans-unit>
+
+<trans-unit id="7273148372383472503" datatype="html">
+  <source> Sandales plates </source>
+  <target> Flat sandals </target>
+</trans-unit>
+
+<trans-unit id="186400881163007092" datatype="html">
+  <source> Chaussures plates </source>
+  <target> Flat shoes </target>
+</trans-unit>
+
+<trans-unit id="4983049951855447135" datatype="html">
+  <source> Chaussures compensées </source>
+  <target> Platform shoes </target>
+</trans-unit>
+
+<trans-unit id="9103038531726599233" datatype="html">
+  <source> Bottes branchées </source>
+  <target> Trendy boots </target>
+</trans-unit>
+
+<trans-unit id="5249891717669571568" datatype="html">
+  <source>Mot de passe</source>
+  <target>Password</target>
+</trans-unit>
+
+<trans-unit id="435217833737448376" datatype="html">
+  <source>illustration de connexion</source>
+  <target>login illustration</target>
+</trans-unit>
+
+<trans-unit id="5263909595696262145" datatype="html">
+  <source> Se connecter </source>
+  <target> Login </target>
+</trans-unit>
+
+<trans-unit id="8168340571120669157" datatype="html">
+  <source> Le format de l'e-mail est invalide </source>
+  <target> Email format is invalid </target>
+</trans-unit>
+
+<trans-unit id="698274561054236914" datatype="html">
+  <source> Le mot de passe est requis </source>
+  <target> Password is required </target>
+</trans-unit>
+
+<trans-unit id="8925851907199109246" datatype="html">
+  <source> Erreur de connexion ! Veuillez réessayer. </source>
+  <target> Login error! Please try again. </target>
+</trans-unit>
