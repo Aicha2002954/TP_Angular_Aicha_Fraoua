@@ -1,0 +1,41 @@
+<app-header></app-header>
+
+<div class="checkout-container">
+  <h2>Finaliser la commande</h2>
+
+  <form  #checkoutForm="ngForm">
+    <label>
+      Nom complet:
+      <input type="text" name="fullname" [(ngModel)]="nomComplet" required />
+    </label>
+    <br />
+
+    <label>
+      Email:
+      <input type="email" name="email" [(ngModel)]="email" required />
+    </label>
+    <br />
+
+    <label>
+      Adresse de livraison:
+      <textarea name="address" [(ngModel)]="adresse" required></textarea>
+    </label>
+    <br />
+ <label>
+      Mode de paiement:
+      <select name="paymentMethod" [(ngModel)]="paymentMethod" required>
+        <option value="" disabled selected>-- Choisir --</option>
+        <option value="Carte bancaire">Carte bancaire</option>
+        <option value="paypal">PayPal</option>
+        <option value="cod">Cash à la livraison</option>
+      </select>
+    </label>
+    <br />
+   
+
+    <!--<button type="submit" [routerLink]="['/payment']">continue</button>-->
+    <button type="button" (click)="continuer()">Continuer</button>
+  </form>
+</div>
+
+<app-footer></app-footer>

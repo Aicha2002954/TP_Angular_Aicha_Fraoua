@@ -1,0 +1,115 @@
+body, html {
+
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-container {
+ 
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(180, 55, 87, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+ 
+}
+
+.payment-container h2 {
+  text-align: center;
+  color: #190404;
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: bold;
+
+}
+
+.payment-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #100407;
+  font-size: 14px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper i {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #100609;
+  font-size: 16px;
+}
+
+.input-wrapper input {
+  width: 80%;
+  padding: 10px 14px 10px 36px;
+  border: 2px solid #f3d1d8;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  color: #333;
+}
+
+.input-wrapper input:focus {
+  border-color: #750f0f;
+  box-shadow: 0 0 5px rgba(180, 55, 87, 0.4);
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #ad1919;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+ width:40%;
+}
+
+button:hover {
+  background-color: #c01d1d;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    align-items: flex-start; 
+    padding-top: 40px;
+  }
+
+  .payment-container {
+    margin: 0 15px;
+    padding: 20px;
+  }
+
+  .input-wrapper input {
+    padding-left: 34px;
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+}

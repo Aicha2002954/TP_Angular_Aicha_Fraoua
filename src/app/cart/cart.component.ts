@@ -5,6 +5,7 @@ import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-cart',
    standalone: true,
@@ -12,7 +13,8 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     RouterModule,
     HeaderComponent,
-    FooterComponent
+    FooterComponent, 
+    FormsModule
   ],
   templateUrl: './cart.component.html',
   styleUrls: ['./cart.component.css']
@@ -34,12 +36,12 @@ export class CartComponent implements OnInit {
     });
   }
 
-  calculateTotal(): void {
-    this.totalPrice = this.cartproduct.reduce((total, product) => {
-      const price = parseFloat(product.productPrice.replace('$', '').trim());
-      return total + (price || 0);
-    }, 0);
-  }
+ calculateTotal(): void {
+  this.totalPrice = this.cartproduct.reduce((total, product) => {
+    const price = parseFloat(product.productPrice.replace('$', '').trim());
+    return total + (price * product.quantity);  
+  }, 0);
+}
 
   removeItem(productId: string): void {
     this.cartService.removeFromLocalCart(productId).subscribe(() => {
@@ -52,4 +54,18 @@ export class CartComponent implements OnInit {
       this.loadCart();
     });
   }
+
+  updateCart(): void {
+  this.cartService.updateCart(this.cartproduct).subscribe(() => {
+    this.calculateTotal();
+  });
+}
+
+passerCommande(): void {
+  this.cartService.passerCommande(this.cartproduct).subscribe(response => {
+    alert("✅ Commande tpassat b naja7 !");
+    this.clearCart();
+  });
+}
+
 }

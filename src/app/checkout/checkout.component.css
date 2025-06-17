@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+.checkout-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(180, 55, 87, 0.2);
+  border: 2px solid #f3d1d8;
+  font-family: 'Rubik', sans-serif;
+}
+
+.checkout-container h2 {
+  text-align: center;
+  color: #ad1919;
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #750f0f;
+  font-size: 15px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #f3d1d8;
+  font-size: 15px;
+  background-color: #fff8fa;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  color: #190404;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #ad1919;
+  box-shadow: 0 0 5px rgba(180, 55, 87, 0.4);
+  outline: none;
+}
+
+button {
+  margin-top: 25px;
+  background-color: #ad1919;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c21818;
+}
+
+@media (max-width: 600px) {
+  .checkout-container {
+    padding: 20px;
+    margin: 20px 15px;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 15px;
+  }
+}

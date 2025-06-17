@@ -4,15 +4,21 @@ import { CatalogComponentComponent } from '../catalog-component/catalog-componen
 import { CartComponent } from './cart/cart.component';
 import { SigninComponent } from './signin/signin.component';
 import { PageDetailsComponent } from './page-details/page-details.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { PaymentComponent } from './payment/payment.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
 export const routes: Routes = [
     
     {path : 'home', component : HomeComponent, title: 'Accueil'},
     {path : 'catalog', component : CatalogComponentComponent, title: 'Catalogue des Talons'},
      { path: 'product/:id', component: PageDetailsComponent, title: 'Détails du Produit' },
-    // Dans app-routing.module.ts
-
+  
     {path : 'cart', component : CartComponent, title: 'Mon Panier'},
     {path : 'signin', component : SigninComponent, title: 'Connexion'},
+    { path: 'checkout', component: CheckoutComponent, title: 'Finaliser la commande' },
+    { path: 'payment', component: PaymentComponent, title: 'Paiement' },
+    { path: 'confirmation', component: ConfirmationComponent, title: 'Confirmation de commande' },
+
     {path : '', redirectTo : '/home', pathMatch : 'full'},
 
 ];

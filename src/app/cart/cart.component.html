@@ -14,7 +14,11 @@
       <div class="item-info">
         <h3>{{ product.productTitle }}</h3>
         <p><span i18n>Catégorie :</span> {{ product.category }}</p>
-        <p><span i18n>Quantité :</span> {{ product.quantity }}</p>
+     
+        <p><span i18n>Quantité :</span>
+  <input type="number" min="1" [(ngModel)]="product.quantity" (change)="updateCart()" />
+</p>
+
         <p><span i18n>Prix :</span> {{ product.productPrice }}</p>
         <button (click)="removeItem(product.productID)" class="remove-btn" i18n>Supprimer</button>
       </div>
@@ -22,7 +26,8 @@
 
     <div class="cart-summary">
       <h3><span i18n>Total :</span> {{ totalPrice }} $</h3>
-      <button class="checkout-btn" i18n>Passer à la caisse</button>
+      
+     <button [routerLink]="['/checkout']" class="checkout-btn" i18n>Passer commande</button>
       <button (click)="clearCart()" class="clear-btn" i18n>Vider le panier</button>
     </div>
   </div>

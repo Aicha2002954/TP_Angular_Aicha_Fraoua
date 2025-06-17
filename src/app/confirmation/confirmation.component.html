@@ -1,0 +1,27 @@
+
+<app-header></app-header>
+
+<div class="confirmation-container">
+  <h2>Merci {{ nomComplet }} pour votre commande ! 🎉</h2>
+  
+  <p>Nous avons bien reçu votre commande et vous en remercions.</p>
+  
+  <p>📩 Un reçu a été envoyé à l'adresse e-mail : <strong>{{ email }}</strong></p>
+  <p>🏠 Votre commande sera livrée à l'adresse suivante : <strong>{{ adresse }}</strong></p>
+  <p>💳 Mode de paiement choisi : <strong>{{ paymentMethod }}</strong></p>
+
+  <h3>Résumé de votre commande :</h3>
+  <ul>
+    <li *ngFor="let product of cartproduct">
+      {{ product.productTitle }} — Quantité : {{ product.quantity }} — Prix unitaire : {{ product.productPrice }} DH
+    </li>
+  </ul>
+
+  <h3>Total payé : <strong>{{ totalPrice }} DH</strong></h3>
+
+  <p>Votre commande est en cours de traitement. Vous recevrez bientôt une notification dès son expédition.</p>
+  
+  <p>Merci de votre confiance et à très bientôt sur notre boutique !</p>
+</div>
+
+<app-footer></app-footer>

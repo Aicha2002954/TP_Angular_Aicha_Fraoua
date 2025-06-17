@@ -74,3 +74,63 @@
   font-size: 1.1rem;
   color: #555;
 }
+
+.item-info p input[type="number"] {
+  width: 50px;
+
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 300;
+  transition: border-color 0.3s ease;
+
+  outline: none;
+}
+
+.item-info p input[type="number"]:focus {
+  border-color: #e91e2f;
+  box-shadow: 0 0 5px rgba(233, 30, 47, 0.6);
+}
+
+
+.checkout-btn {
+  background-color: #f30f0f; 
+  color: white;
+  font-weight: 700;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  margin-right: 12px;
+  box-shadow: 0 4px 8px rgba(249, 12, 12, 0.4);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background-color: #882121;
+  transform: scale(1.05);
+}
+
+.clear-btn {
+  background-color: #ff2c07; /* jaune vif */
+  color: #333;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 8px rgba(255, 193, 7, 0.4);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: #3f0906;
+  transform: scale(1.05);
+}
+
+
+.cart-summary button + button {
+  margin-left: 10px;
+}

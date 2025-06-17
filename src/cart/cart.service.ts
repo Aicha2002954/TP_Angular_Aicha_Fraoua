@@ -91,4 +91,21 @@ export class CartService {
     this.localCart = [];
     return this.http.post(this.cartUrl, []);
   }
+  
+  passerCommande(products: Product[]): Observable<any> {
+  return this.http.post('http://localhost:3000/api/commandes', products);
+}
+updateCart(updatedCart: Product[]): Observable<any> {
+  this.localCart = updatedCart;
+  return this.http.post(this.cartUrl, this.localCart).pipe(
+    catchError(error => {
+      console.error('Erreur mise à jour panier :', error);
+      return of(null);
+    })
+  );
+}
+getLocalCart(): Product[] {
+  return this.localCart;
+}
+
 }
