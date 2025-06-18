@@ -8,13 +8,14 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router'; 
 import { HeaderComponent } from '../app/header/header.component';
 import { FooterComponent } from '../app/footer/footer.component';
-
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-catalog-component',
   standalone: true,
   imports: [
     ProductDetailsComponent,
     CommonModule,
+     FormsModule,
     HeaderComponent,
     FooterComponent,
     RouterModule ,PageDetailsComponent 
@@ -26,6 +27,8 @@ export class CatalogComponentComponent implements OnInit {
   products: Product[] = [];
   selectedProduct: Product | null = null;
   filter: string = '';
+  searchTerm: string = '';
+
 
   constructor(
     private cartService: CartService,
@@ -56,11 +59,14 @@ export class CatalogComponentComponent implements OnInit {
   }
 
   getFilteredProducts() {
-    return this.filter === ''
-      ? this.products
-      : this.products.filter(
-          (product: any) => product.category.toLowerCase() === this.filter.toLowerCase()
-        );
-  }
+  const term = this.searchTerm.toLowerCase();
+
+  return this.products.filter(product => {
+    const matchFilter = this.filter === '' || product.category.toLowerCase() === this.filter.toLowerCase();
+    const matchSearch = product.productTitle.toLowerCase().includes(term) || product.category.toLowerCase().includes(term);
+    return matchFilter && matchSearch;
+  });
+}
+
   
 }

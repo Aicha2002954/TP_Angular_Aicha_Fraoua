@@ -2,6 +2,15 @@
 
 <div class="products">
   <div class="container mt-5">
+<div class="search-bar">
+
+  <input
+    type="text"
+    [(ngModel)]="searchTerm"
+    placeholder="Rechercher un article..."
+  />
+</div>
+
 
     <div class="filters">
       <a routerLink="/catalog" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="button" i18n>
