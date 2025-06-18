@@ -1,4 +1,3 @@
-
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -12,7 +11,13 @@ export class UserService {
 
   constructor(private http: HttpClient) {}
 
+  // 🔐 Connexion
   signIn(credentials: IUserCredentials): Observable<any> {
     return this.http.post(`${this.apiUrl}/api/signin`, credentials);
+  }
+
+  // 📝 Inscription
+  signup(user: any): Observable<any> {
+    return this.http.post(`${this.apiUrl}/api/signup`, user);
   }
 }

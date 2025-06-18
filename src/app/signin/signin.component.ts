@@ -7,6 +7,7 @@ import { UserService } from '../user.service';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-signin',
@@ -18,19 +19,38 @@ import { FooterComponent } from '../footer/footer.component';
 
 
 export class SigninComponent {
+credentials = {
+    email: '',
+    password: ''
+  };
 
-  credentials: IUserCredentials = { email: '', password: '' };
+  errorMessage: string = '';
   signInError: boolean = false;
 
-  constructor(private userService: UserService, private router: Router) { }
+  constructor(private router: Router, private authService: AuthService) {}
 
   signIn() {
-    this.signInError = false;
-    this.userService.signIn(this.credentials).subscribe({
-      next: () => this.router.navigate(['/catalog']),
-      error: () => (this.signInError = true)
-    });
-  }
+    const { email, password } = this.credentials;
 
+    const success = this.authService.login(email, password);
+
+    if (success) {
+      const role = this.authService.getUserRole();
+
+      if (role === 'admin') {
+        this.router.navigate(['/admin']);
+      } else if (role === 'client') {
+        this.router.navigate(['/catalog']);
+      } else {
+        this.router.navigate(['']);
+      }
+    } else {
+      this.errorMessage = 'Email ou mot de passe incorrect.';
+      this.signInError = true;
+    }
+  }
 }
+
+
+
 

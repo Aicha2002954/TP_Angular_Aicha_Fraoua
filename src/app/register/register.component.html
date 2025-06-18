@@ -1,0 +1,74 @@
+<app-header></app-header>
+
+<h2 class="sign-in">Créer un compte</h2>
+<p class="sub-text">Vos données sont protégées.</p>
+
+<form (ngSubmit)="register()" #registerForm="ngForm" class="register-form">
+
+  <label for="firstName">Prénom :</label>
+  <input
+    type="text"
+    id="firstName"
+    name="firstName"
+    placeholder="Entrez votre prénom"
+    required
+    [(ngModel)]="firstName"
+  />
+
+  <label for="lastName">Nom :</label>
+  <input
+    type="text"
+    id="lastName"
+    name="lastName"
+    placeholder="Entrez votre nom"
+    required
+    [(ngModel)]="lastName"
+  />
+
+  <label for="email">Adresse e-mail :</label>
+  <input
+    type="email"
+    id="email"
+    name="email"
+    placeholder="Entrez votre e-mail"
+    required
+    [(ngModel)]="email"
+  />
+
+ 
+
+ 
+
+  <label for="password">Mot de passe :</label>
+  <input
+    type="password"
+    id="password"
+    name="password"
+    placeholder="Entrez votre mot de passe"
+    required
+    [(ngModel)]="password"
+  />
+
+  <label for="confirmPassword">Confirmer le mot de passe :</label>
+  <input
+    type="password"
+    id="confirmPassword"
+    name="confirmPassword"
+    placeholder="Confirmez votre mot de passe"
+    required
+    [(ngModel)]="confirmPassword"
+  />
+
+  <label for="role">Rôle :</label>
+  <select id="role" name="role" [(ngModel)]="role" required>
+    <option value="" disabled>Choisissez un rôle</option>
+    <option value="client">Client</option>
+    <option value="gerant">Gérant</option>
+    <option value="admin">Admin</option>
+  </select>
+
+  <br /><br />
+  <button type="submit" [disabled]="!registerForm.form.valid">S'inscrire</button>
+</form>
+
+<app-footer></app-footer>

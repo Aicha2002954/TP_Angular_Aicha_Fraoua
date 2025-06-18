@@ -45,8 +45,10 @@
         >
           Se connecter
         </button>
+        
+  <a class="register-link" routerLink="/register" i18n>Créer un compte</a>
       </div>
-
+ 
       <div class="signInError" *ngIf="signInError" i18n>
         Erreur de connexion ! Veuillez réessayer.
       </div>
@@ -57,5 +59,6 @@
     <img src="assets/images/1.jpg" alt="illustration de connexion" i18n-alt />
   </div>
 </div>
+
 
 <app-footer></app-footer>
