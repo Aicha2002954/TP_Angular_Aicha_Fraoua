@@ -216,3 +216,18 @@ margin-left: 10px;
     grid-template-columns: 1fr; 
   }
 }
+.wishlist-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  transition: transform 0.2s ease;
+}
+
+.wishlist-btn:hover {
+  transform: scale(1.2);
+}
+
+.favorited {
+  color: red;
+}

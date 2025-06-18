@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Product } from '../models/Product';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-
+import { FavoritesService } from '../app/favorites-service.service';
 @Component({
   selector: 'app-product-details',
   standalone: true,
@@ -25,5 +25,20 @@ export class ProductDetailsComponent {
   DetailClick() {
     this.showDetails.emit(this.product);
   }
-  
+   constructor(
+    private favoritesService: FavoritesService,
+   
+  ) {}
+ toggleFavorite(product: any): void {
+  if (this.favoritesService.isFavorite(product.productID)) {
+    this.favoritesService.removeFromFavorites(product.productID);
+  } else {
+    this.favoritesService.addToFavorites(product);
+  }
+}
+
+
+  isFavorited(productId: number): boolean {
+    return this.favoritesService.isFavorite(productId);
+  }
 }

@@ -1,14 +1,35 @@
 <header class="main-header">
   <div class="container">
+
     <div class="logo"><span i18n>Passionisse</span></div>
+
     <nav class="nav-links">
-      <a routerLink="/" routerLinkActive="active" i18n>🏠 Accueil</a>
-      <a routerLink="/catalog" routerLinkActive="active" i18n>📦 Catalogue</a>
-      <a routerLink="/signin" routerLinkActive="active" i18n>🔐 Connexion</a>
-            <a routerLink="/register" routerLinkActive="active" i18n>🔐 Inscription</a>
-      <a routerLink="/cart" routerLinkActive="active" class="cart-link" i18n>
-        🛒 Panier <span class="cart-count">0</span>
+
+      <a routerLink="/" routerLinkActive="active" class="material-icons" title="Accueil">home</a>
+      <a routerLink="/catalog" routerLinkActive="active" class="material-icons" title="Catalogue">inventory_2</a>
+
+      <div *ngIf="!isLoggedIn; else loggedInTpl" class="auth-menu-container">
+        <button (click)="toggleAuthMenu()" class="material-icons" title="Connexion / Inscription">lock</button>
+        <div *ngIf="showAuthMenu" class="auth-menu">
+          <button (click)="goTo('signin')">Connexion</button>
+          <button (click)="goTo('register')">Inscription</button>
+        </div>
+      </div>
+
+      <ng-template #loggedInTpl>
+        <button class="btn-logout" (click)="logout()" i18n>🚪 Logout</button>
+      </ng-template>
+
+      <a routerLink="/favorites" routerLinkActive="active" class="material-icons" title="Favoris">
+  favorite
+  <span class="favorites-count">{{ favoritesCount }}</span>
+</a>
+
+      <a routerLink="/cart" routerLinkActive="active" class="cart-link"  i18n>
+         🛒  <span class="cart-count">{{ cartCount }}</span>
       </a>
+
     </nav>
+
   </div>
 </header>

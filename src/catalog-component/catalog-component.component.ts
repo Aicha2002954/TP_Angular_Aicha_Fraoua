@@ -62,4 +62,5 @@ export class CatalogComponentComponent implements OnInit {
           (product: any) => product.category.toLowerCase() === this.filter.toLowerCase()
         );
   }
+  
 }

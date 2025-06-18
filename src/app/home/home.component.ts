@@ -31,6 +31,7 @@ export class HomeComponent {
    goToSignIn(): void {
     this.router.navigate(['/signin']); 
   }
+  
 }
 
 

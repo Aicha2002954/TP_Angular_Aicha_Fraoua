@@ -12,7 +12,6 @@ body {
   color: #333;
 }
 
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -21,6 +20,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 
 .main-header {
   background: #fff;
@@ -35,7 +35,7 @@ body {
 .logo {
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
-  font-weight: 00;
+  font-weight: 700;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -46,6 +46,7 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-right: 20%;
 }
+
 
 .nav-links {
   display: flex;
@@ -65,7 +66,7 @@ body {
 }
 
 .nav-links a.active {
-  color:#b01111;
+  color: #b01111;
   font-weight: bold;
 }
 
@@ -80,14 +81,6 @@ body {
   gap: 0.3rem;
 }
 
-.cart-count {
-  background: white;
-  color: #b01111;
-  padding: 2px 6px;
-  border-radius: 50%;
-  font-size: 0.75rem;
-  font-weight: bold;
-}
 
 @media (max-width: 768px) {
   .container {
@@ -110,4 +103,70 @@ body {
   .cart-link {
     margin-top: 1rem;
   }
+}
+
+
+.auth-menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+.auth-menu {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 8px 0;
+  z-index: 1000;
+}
+
+.auth-menu button {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 8px 16px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+  color: #0e0a0a;
+  transition: background-color 0.3s ease;
+}
+
+.auth-menu button:hover {
+  background-color: #f0f0f0;
+}
+
+
+.material-icons {
+  font-size: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #0d0c0c;
+  transition: color 0.3s ease, transform 0.3s ease;
+  margin: 0 10px;
+}
+
+.material-icons:hover {
+  color: #500e0e;
+  transform: scale(1.2);
+}
+
+
+.cart-count {
+  background-color: #7c7676;  
+  color: white;               
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 12px;     
+  padding: 2px 8px;         
+  margin-left: 6px;        
+  min-width: 20px;         
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.2;
 }

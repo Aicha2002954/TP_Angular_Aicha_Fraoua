@@ -9,6 +9,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { PaymentComponent } from './payment/payment.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
 import { RegisterComponent } from './register/register.component';
+import { FavoritesComponent } from './favorites/favorites.component';
 export const routes: Routes = [
     
     {path : 'home', component : HomeComponent, title: 'Accueil'},
@@ -23,7 +24,7 @@ export const routes: Routes = [
     { path: 'checkout', component: CheckoutComponent, title: 'Finaliser la commande' },
     { path: 'payment', component: PaymentComponent, title: 'Paiement' },
     { path: 'confirmation', component: ConfirmationComponent, title: 'Confirmation de commande' },
-
+ { path: 'favorites', component: FavoritesComponent,title:'liste favorite' },
     {path : '', redirectTo : '/home', pathMatch : 'full'},
 
 ];

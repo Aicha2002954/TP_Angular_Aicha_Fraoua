@@ -107,5 +107,8 @@ updateCart(updatedCart: Product[]): Observable<any> {
 getLocalCart(): Product[] {
   return this.localCart;
 }
+getCartCount(): number {
+  return this.localCart.reduce((acc, product) => acc + (product.quantity || 1), 0);
+}
 
 }
