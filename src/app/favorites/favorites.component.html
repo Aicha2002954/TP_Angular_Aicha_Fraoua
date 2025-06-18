@@ -1,8 +1,6 @@
 <app-header></app-header>
 
-<div class="favorites-container">
-  <h2 class="favorites-title">Mes Favoris</h2>
-
+<div class="container">
   <div *ngIf="favorites.length === 0" class="empty-message">
     Vous n'avez pas encore ajouté de favoris.
   </div>
@@ -12,9 +10,10 @@
       <img [src]="product.productImage" [alt]="product.productTitle" />
       <div class="product-info">
         <h3>{{ product.productTitle }}</h3>
-        <p class="price">{{ product.productPrice }} MAD</p>
+        <p>Prix : <span class="price">{{ product.productPrice }}</span></p>
+        <p class="desc">{{ product.productDescription }}</p> <!-- 🆕 Description ajoutée -->
         <button (click)="removeFavorite(+product.productID)" class="btn-remove">
-          <i class="fas fa-heart-broken"></i> Supprimer
+          Supprimer
         </button>
       </div>
     </div>

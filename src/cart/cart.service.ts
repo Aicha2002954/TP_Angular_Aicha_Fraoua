@@ -23,7 +23,8 @@ export class CartService {
             apiProduct.productPrice, 
             apiProduct.category,
             apiProduct.quantity,
-            apiProduct.productImage
+            apiProduct.productImage,
+           apiProduct.productDescription || ''
           )
         )
       ),
@@ -43,7 +44,8 @@ export class CartService {
           apiProduct.productPrice,
           apiProduct.category,
           apiProduct.quantity,
-          apiProduct.productImage
+          apiProduct.productImage,
+          apiProduct.productDescription || ''
         )
       ),
       catchError(error => {

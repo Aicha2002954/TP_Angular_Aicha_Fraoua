@@ -10,25 +10,39 @@
 
   <div *ngIf="cartproduct.length > 0">
     <div class="cart-item" *ngFor="let product of cartproduct">
+            <!-- Icône poubelle pour supprimer -->
+        <button (click)="removeItem(product.productID)" class="remove-btn" aria-label="Supprimer le produit" style="background:none; border:none; cursor:pointer;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+    <polyline points="3 6 5 6 21 6"></polyline>
+    <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"></path>
+    <path d="M10 11v6"></path>
+    <path d="M14 11v6"></path>
+    <path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"></path>
+  </svg>
+</button>
+
       <img [src]="product.productImage" [alt]="product.productTitle" class="product-img"/>
       <div class="item-info">
         <h3>{{ product.productTitle }}</h3>
         <p><span i18n>Catégorie :</span> {{ product.category }}</p>
-     
-        <p><span i18n>Quantité :</span>
-  <input type="number" min="1" [(ngModel)]="product.quantity" (change)="updateCart()" />
-</p>
+        
+       <p><span i18n>Prix :</span> {{ product.productPrice }}</p>
 
-        <p><span i18n>Prix :</span> {{ product.productPrice }}</p>
-        <button (click)="removeItem(product.productID)" class="remove-btn" i18n>Supprimer</button>
+        <p><span i18n>Quantité :</span>
+          <input type="number" min="1" [(ngModel)]="product.quantity" (change)="updateCart()" />
+        </p>
+
+       
+  <p><span i18n></span> {{ product.productDescription }}</p>
+  
       </div>
     </div>
 
     <div class="cart-summary">
       <h3><span i18n>Total :</span> {{ totalPrice }} $</h3>
       
-     <button [routerLink]="['/checkout']" class="checkout-btn" i18n>Passer commande</button>
-      <button (click)="clearCart()" class="clear-btn" i18n>Vider le panier</button>
+      <button [routerLink]="['/checkout']" class="checkout-btn" i18n>Passer commande</button>
+      <!--<button (click)="clearCart()" class="clear-btn" i18n>Vider le panier</button>-->
     </div>
   </div>
 </div>

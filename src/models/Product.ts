@@ -6,7 +6,7 @@ export class Product {
     public category: string,
     public quantity: number,
     public productImage: string,
-    public productDescription: string 
+    public productDescription:string
   ) {}
 
   public printProduct(): string {

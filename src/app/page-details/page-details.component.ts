@@ -37,16 +37,18 @@ export class PageDetailsComponent implements OnInit {
   }
 
  addToCart(): void {
-    if (this.product) {
-    
-      const productToAdd = new Product(
-        this.product.productID,
-        this.product.productTitle,
-        this.product.productPrice,
-        this.product.category,
-        1,  
-        this.product.productImage
-      );
+  if (this.product) {
+    const productToAdd = new Product(
+      this.product.productID,
+      this.product.productTitle,
+      this.product.productPrice,
+      this.product.category,
+      1,  
+      this.product.productImage,
+      this.product.productDescription || ''  
+    );
+
+
 
       console.log('🛒 Produit envoyé au panier:', productToAdd);
 
