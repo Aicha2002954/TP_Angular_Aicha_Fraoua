@@ -3,7 +3,7 @@ import { HomeComponent } from './home/home.component';
 import { CatalogComponentComponent } from '../catalog-component/catalog-component.component';
 import { CartComponent } from './cart/cart.component';
 import { SigninComponent } from './signin/signin.component';
-
+import { ProfileComponent } from './profile/profile.component';
 import { PageDetailsComponent } from './page-details/page-details.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { PaymentComponent } from './payment/payment.component';
@@ -20,6 +20,8 @@ export const routes: Routes = [
 
     {path : 'signin', component : SigninComponent, title: 'Connexion'},
       { path: 'register', component: RegisterComponent, title: 'Inscription' },
+      { path: 'profile', component: ProfileComponent, title: 'Mon Profil' },
+
 
     { path: 'checkout', component: CheckoutComponent, title: 'Finaliser la commande' },
     { path: 'payment', component: PaymentComponent, title: 'Paiement' },

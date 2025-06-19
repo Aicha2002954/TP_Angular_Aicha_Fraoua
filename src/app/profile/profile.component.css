@@ -1,0 +1,128 @@
+.profile-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(132, 45, 45, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #971414;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 12px 0 6px;
+  font-weight: 600;
+  color: #2e0b0b;
+   font-family: 'Montserrat', sans-serif;
+}
+
+input,
+select {
+  padding: 10px 12px;
+  border: 1px solid #971b1b;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #540c0c;
+  box-shadow: 0 0 0 2px rgba(183, 28, 80, 0.2);
+}
+
+button {
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #561111;
+  color: white;
+  border: none;
+  border-radius: 10px;
+max-width: 50%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c52630;
+}
+.profile-photo-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #b71c50;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.upload-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #911e1e;
+  color: white;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload-btn:hover {
+  background-color: #9e1845;
+}
+
+
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 60%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+}
+
+.profile-photo:hover {
+  transform: scale(1.03);
+}
+
+.edit-photo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #331616;
+  color: white;
+  font-size: 16px;
+  padding: 6px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: background-color 0.3s ease;
+}
+
+.edit-photo:hover {
+  background-color: #540c0c;
+}
+
+.photo-text {
+  margin-top: 8px;
+  color: #540c0c;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}

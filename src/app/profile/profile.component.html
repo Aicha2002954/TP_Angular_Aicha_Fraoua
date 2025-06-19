@@ -1,0 +1,38 @@
+<app-header></app-header>
+
+<div class="profile-container">
+  <h2>Mon Profil</h2>
+  <div class="profile-photo-section">
+  <img src="assets/images/1.jpg" alt="Photo de profil" class="profile-photo" />
+
+  <label class="upload-btn">
+    📷 Changer la photo
+    <input type="file" (change)="onPhotoSelected($event)" hidden />
+  </label>
+</div>
+  <form (ngSubmit)="updateProfile()">
+    <label>Prénom :</label>
+    <input type="text" [(ngModel)]="user.firstName" name="firstName" required />
+
+    <label>Nom :</label>
+    <input type="text" [(ngModel)]="user.lastName" name="lastName" required />
+
+    <label>Email :</label>
+    <input type="email" [(ngModel)]="user.email" name="email" required readonly />
+
+    <label>Mot de passe :</label>
+    <input type="password" [(ngModel)]="user.password" name="password" required />
+
+    <label>Rôle :</label>
+    <select [(ngModel)]="user.role" name="role" required>
+      <option value="client">Client</option>
+      <option value="gerant">Gérant</option>
+      <option value="admin">Admin</option>
+    </select>
+
+    <button type="submit">Mettre à jour</button>
+  </form>
+</div>
+
+
+<app-footer></app-footer>

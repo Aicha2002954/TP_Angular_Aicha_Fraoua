@@ -6,7 +6,12 @@ export class Product {
     public category: string,
     public quantity: number,
     public productImage: string,
-    public productDescription:string
+    public productDescription: string,
+    public offer?: {
+      discountPercent?: number;
+      newPrice?: number;
+      endDate?: string;
+    }
   ) {}
 
   public printProduct(): string {

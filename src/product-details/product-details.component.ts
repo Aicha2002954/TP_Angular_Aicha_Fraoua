@@ -41,4 +41,6 @@ export class ProductDetailsComponent {
   isFavorited(productId: number): boolean {
     return this.favoritesService.isFavorite(productId);
   }
+
+  
 }

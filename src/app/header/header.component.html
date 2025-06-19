@@ -9,12 +9,14 @@
       <a routerLink="/catalog" routerLinkActive="active" class="material-icons" title="Catalogue">inventory_2</a>
 
       <div *ngIf="!isLoggedIn; else loggedInTpl" class="auth-menu-container">
-        <button (click)="toggleAuthMenu()" class="material-icons" title="Connexion / Inscription">lock</button>
-        <div *ngIf="showAuthMenu" class="auth-menu">
-          <button (click)="goTo('signin')">Connexion</button>
-          <button (click)="goTo('register')">Inscription</button>
-        </div>
-      </div>
+  <button (click)="toggleAuthMenu()" class="material-icons" title="Mon Profile">account_circle</button>
+  
+  <div *ngIf="showAuthMenu" class="auth-menu">
+    <button (click)="goTo('profile')">Mon profile</button>
+    <button (click)="goTo('signin')">Connexion</button>
+    <button (click)="goTo('register')">Inscription</button>
+  </div>
+</div>
 
       <ng-template #loggedInTpl>
         <button class="btn-logout" (click)="logout()" i18n>🚪 Logout</button>
