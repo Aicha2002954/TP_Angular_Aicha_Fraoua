@@ -7,6 +7,7 @@
     <div class="product-info">
       <h3 class="product-title">{{ product.productTitle }}</h3>
       <div class="product-meta">
+        
         <span class="product-quantity"  i18n> Price:{{ product.productPrice }}</span>
          <button class="wishlist-btn" (click)="toggleFavorite(product); $event.stopPropagation()">
  <span [class.favorited]="isFavorited(+product.productID)">❤️</span>

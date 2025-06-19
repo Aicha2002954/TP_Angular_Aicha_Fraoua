@@ -121,3 +121,20 @@
   border-radius: 4px;
   font-size: 12px;
 }
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-right: 8px;
+}
+.discounted-price {
+  font-weight: bold;
+  color: #c2185b;
+}
+.discount {
+  background-color: #ffe0e0;
+  color: #b71c1c;
+  font-size: 0.85em;
+  padding: 2px 6px;
+  margin-left: 6px;
+  border-radius: 4px;
+}

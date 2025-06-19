@@ -23,7 +23,19 @@
         <div class="product-info">
           <h3>{{ product.productTitle }}</h3>
           <div class="price-container">
-            <p class="price">{{ product.productPrice }} </p>
+       
+<div class="price-container">
+  <p class="price" *ngIf="product.offer?.isActive">
+    <span class="old-price">{{ product.productPrice }}</span>
+    <span class="discounted-price">{{ product.offer.newPrice }}</span>
+    <span class="discount">-{{ product.offer.discountPercentage }}%</span>
+  </p>
+  <p class="price" *ngIf="!product.offer?.isActive">
+    {{ product.productPrice }}
+  </p>
+</div>
+
+          
             <button class="wishlist-btn" i18n>♥</button>
           </div>
         </div>

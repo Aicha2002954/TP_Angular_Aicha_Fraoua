@@ -8,11 +8,12 @@ export class Product {
     public productImage: string,
     public productDescription: string,
     public offer?: {
-      discountPercent?: number;
-      newPrice?: number;
-      endDate?: string;
+      isActive: boolean,
+      discountPercentage?: number,
+      newPrice?: string
     }
   ) {}
+
 
   public printProduct(): string {
     return `productID: ${this.productID}, productTitle: ${this.productTitle}, productPrice: ${this.productPrice}, category: ${this.category}, description: ${this.productDescription}.`;
