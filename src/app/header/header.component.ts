@@ -75,10 +75,13 @@ toggleAuthMenu() {
 
 goTo(page: string) {
   this.showAuthMenu = false;
+
   if (page === 'signin') {
     this.router.navigate(['/signin']);
   } else if (page === 'register') {
     this.router.navigate(['/register']);
+  } else if (page === 'profile') {
+    this.router.navigate(['/profile']); 
   }
 }
 
