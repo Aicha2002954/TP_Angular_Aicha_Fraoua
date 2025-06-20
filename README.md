@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/008a3a87-b4fc-44f0-9cc0-e60ce772f4a1)
+
 # Aicha Fraoua DCC0027/24
 # Passionisse-Chaussures élégantes pour femmes – en ligne
 Passionisse est une application Angular pour la vente de chaussures féminines (talons, sandales, bottes). Elle permet de consulter un catalogue, voir les détails et gérer un panier.
@@ -22,6 +22,7 @@ B-->Lancer l’application
 1-Dnas un autre terminal 
 2-lancre avec commende "ng npm start"
 ![image](https://github.com/user-attachments/assets/cf32f6b7-a63e-443d-a9da-931cc40e86ed)
+
 # page d'Accueil
 
 ![image](https://github.com/user-attachments/assets/751efceb-c2ff-459c-bddf-c95b6c953571)
