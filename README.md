@@ -15,7 +15,7 @@ JSON (format des données
 Installer les dépendances
 npm install
 # Lancement
-A-->Lancer serveur-api 
+A-->Lancer Api-server
 
 1--Ouvres terminal 
 
