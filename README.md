@@ -1,5 +1,6 @@
 
 # Aicha Fraoua DCC0027/24
+
 # 👠 Passionisse-Chaussures élégantes pour femmes – en ligne
 Passionisse est une application Angular pour la vente de chaussures féminines (talons, sandales, bottes). Elle permet de consulter un catalogue, voir les détails et gérer un panier.
 Elle s’appuie sur une API Express en JSON et un serveur Node.js (server.js) pour l’hébergement ou le déploiement.
@@ -76,6 +77,7 @@ Cette page affiche tous les produits que l’utilisateur a ajoutés à ses favor
 
 ![image](https://github.com/user-attachments/assets/7abaf28e-8c5d-4835-bc1d-5f0c0333c9ba)
 
+
 # Page des listes des produits
 Cette page présente tous les produits disponibles dans Passionisse.
 Elle offre un champ de recherche pour filtrer par titre ou catégorie, avec un classement par type : talons hauts, chaussures plates, bottes.
@@ -101,6 +103,7 @@ Un message de confirmation s’affiche pour indiquer que l’ajout a été effec
 Plus tard, il pourra retrouver ce produit dans son panier pour finaliser son achat.
 
 ![image](https://github.com/user-attachments/assets/ca82ba4f-b91f-459a-bcac-a0129cf618d9)
+
 
 #  Page Panire
 Cette page affiche les produits ajoutés au panier avec leurs détails.
@@ -128,6 +131,7 @@ Il récapitule les informations fournies ainsi que les détails des produits ach
 
 
 
+###################################################################
 
 
 
