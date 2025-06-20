@@ -25,7 +25,6 @@ B-->Lancer l’application
 # page d'Accueil
 
 ![image](https://github.com/user-attachments/assets/751efceb-c2ff-459c-bddf-c95b6c953571)
-![image](https://github.com/user-attachments/assets/9df68e49-12f9-4d82-b96d-0b417af2e605)
 
 ![image](https://github.com/user-attachments/assets/f3f14858-e37a-4ead-b323-7462dd192347)
 
