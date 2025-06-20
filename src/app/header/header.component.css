@@ -119,7 +119,7 @@ body {
   border: 1px solid #ddd;
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  padding: 8px 0;
+  padding: 2px 0;
   z-index: 1000;
 }
 
@@ -128,30 +128,30 @@ body {
   width: 100%;
   background: none;
   border: none;
-  padding: 8px 16px;
+  padding: 4px 16px;
   text-align: left;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 10px;
   color: #0e0a0a;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.1s ease;
 }
 
 .auth-menu button:hover {
-  background-color: #f0f0f0;
+  background-color: #a71313;
 }
 
 
 .material-icons {
-  font-size: 20px;
+  font-size: 24px;
   vertical-align: middle;
   cursor: pointer;
   color: #0d0c0c;
   transition: color 0.3s ease, transform 0.3s ease;
-  margin: 0 10px;
+  margin: 0 8px;
 }
 
 .material-icons:hover {
-  color: #500e0e;
+  color: #7b1414;
   transform: scale(1.2);
 }
 
@@ -160,12 +160,10 @@ body {
   background-color: #7c7676;  
   color: white;               
   font-weight: bold;
-  font-size: 14px;
-  border-radius: 12px;     
-  padding: 2px 8px;         
-  margin-left: 6px;        
-  min-width: 20px;         
-  text-align: center;
+  font-size: 12px;
+  border-radius: 10px;     
+    
+ 
   display: inline-block;
   vertical-align: middle;
   line-height: 1.2;
@@ -173,7 +171,8 @@ body {
 .auth-menu-container button.material-icons {
   background: none;
   border: none;
-  font-size: 28px;
+  font-size: 23px;
   cursor: pointer;
-  color: #333;
+ color: #0d0c0c;
+  
 }

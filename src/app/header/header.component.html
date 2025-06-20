@@ -7,25 +7,28 @@
 
       <a routerLink="/" routerLinkActive="active" class="material-icons" title="Accueil">home</a>
       <a routerLink="/catalog" routerLinkActive="active" class="material-icons" title="Catalogue">inventory_2</a>
-
+   <a routerLink="/favorites" routerLinkActive="active" class="material-icons" title="Favoris">
+  favorite
+ 
+</a>
       <div *ngIf="!isLoggedIn; else loggedInTpl" class="auth-menu-container">
   <button (click)="toggleAuthMenu()" class="material-icons" title="Mon Profile">account_circle</button>
-  
+
   <div *ngIf="showAuthMenu" class="auth-menu">
     <button (click)="goTo('profile')">Mon profile</button>
     <button (click)="goTo('signin')">Connexion</button>
     <button (click)="goTo('register')">Inscription</button>
+  
+     <button (click)="goTo('home')">logout</button>
+     
   </div>
+  
 </div>
-
       <ng-template #loggedInTpl>
         <button class="btn-logout" (click)="logout()" i18n>🚪 Logout</button>
       </ng-template>
 
-      <a routerLink="/favorites" routerLinkActive="active" class="material-icons" title="Favoris">
-  favorite
-  <span class="favorites-count">{{ favoritesCount }}</span>
-</a>
+   
 
       <a routerLink="/cart" routerLinkActive="active" class="cart-link"  i18n>
          🛒  <span class="cart-count">{{ cartCount }}</span>

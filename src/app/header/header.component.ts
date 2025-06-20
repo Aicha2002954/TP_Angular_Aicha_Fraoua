@@ -83,7 +83,9 @@ goTo(page: string) {
   } else if (page === 'profile') {
     this.router.navigate(['/profile']); 
   }
-}
+   else if (page === 'logout') {
+    this.router.navigate(['/home']); 
+  }
 
 
-}
+}}

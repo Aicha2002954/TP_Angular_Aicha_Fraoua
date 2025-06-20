@@ -11,7 +11,7 @@
       <div class="product-info">
         <h3>{{ product.productTitle }}</h3>
         <p>Prix : <span class="price">{{ product.productPrice }}</span></p>
-        <p class="desc">{{ product.productDescription }}</p> <!-- 🆕 Description ajoutée -->
+        <p class="desc">{{ product.productDescription }}</p> 
         <button (click)="removeFavorite(+product.productID)" class="btn-remove">
           Supprimer
         </button>

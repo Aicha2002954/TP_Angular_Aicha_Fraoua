@@ -305,14 +305,13 @@ margin-left: 10px;
   border-radius: 4px;
 }
 
-/* ✅ Prix normal (quand pas d’offre) */
 .price {
   font-weight: bold;
   color: #b11212;
   font-size: 1.1rem;
 }
 
-/* ❤️ Wishlist */
+
 .wishlist-btn {
   background: none;
   border: none;
