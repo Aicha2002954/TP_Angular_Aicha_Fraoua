@@ -60,7 +60,7 @@ Cette structure assure une navigation claire et une expérience d’achat agréa
 # Page Mon Profile
 ![image](https://github.com/user-attachments/assets/39950171-74db-4a83-9cc4-7bd2e72ffc54)
 
--->	Une fois que l’utilisateur modifie ses informations personnelles et clique sur le bouton « Mettre à jour », un message de confirmation s’affiche à l’écran pour lui indiquer que les modifications ont été enregistrées avec succès.
+-->Une fois que l’utilisateur modifie ses informations personnelles et clique sur le bouton « Mettre à jour », un message de confirmation s’affiche à l’écran pour lui indiquer que les modifications ont été enregistrées avec succès.
 
 ![image](https://github.com/user-attachments/assets/0e7d6595-c888-4464-ae38-cfddc5a93848)
 # Page de produits favoris
@@ -109,6 +109,7 @@ Un message de confirmation s’affiche pour valider le paiement et finaliser la 
 Il récapitule les informations fournies ainsi que les détails des produits achetés : quantités et montant total payé.
 ![image](https://github.com/user-attachments/assets/f91cc524-0b94-4e72-b709-3ca16038da80)
 ![image](https://github.com/user-attachments/assets/8309089d-e49d-4aca-acad-cdcf8a8e9f17)
+
 
 
 
