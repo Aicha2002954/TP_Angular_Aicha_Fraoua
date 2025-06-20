@@ -52,6 +52,7 @@ Cette structure assure une navigation claire et une expérience d’achat agréa
 
 # Page Mon Profile
 ![image](https://github.com/user-attachments/assets/39950171-74db-4a83-9cc4-7bd2e72ffc54)
+
 -->	Une fois que l’utilisateur modifie ses informations personnelles et clique sur le bouton « Mettre à jour », un message de confirmation s’affiche à l’écran pour lui indiquer que les modifications ont été enregistrées avec succès.
 
 ![image](https://github.com/user-attachments/assets/0e7d6595-c888-4464-ae38-cfddc5a93848)
@@ -66,15 +67,18 @@ Chaque produit affiche son nom, prix, un bouton détail, et une icône favoris p
 
 ![image](https://github.com/user-attachments/assets/e5e4fb10-3091-40fb-baa6-cc8a574e7aed)
 ![image](https://github.com/user-attachments/assets/ddc92e65-a283-4215-a8d2-867a327524ef)
+
 -->	Lorsqu’un utilisateur clique sur une catégorie spécifique,la page affiche automatiquement tous les produits appartenant à ce type
 
 ![image](https://github.com/user-attachments/assets/28fe28fd-1c33-4baa-b39a-2f75e1efd8ea)
 -->Lorsqu’une recherche est effectuée par titre ou par catégorie,la page affiche automatiquement tous les produits correspondant à ce critère
 
 ![image](https://github.com/user-attachments/assets/11a5316e-f075-4c14-a27d-90a60b211159)
+
 -->En cliquant sur le bouton " Voir Détail", l’utilisateur accède à une page affichant le titre, le prix, la catégorie et une description complète du produit.
 
 ![image](https://github.com/user-attachments/assets/db981184-ee2e-45d8-a108-ce1e2d824793)
+
  --> En cliqaunt cliquer sur le bouton « Ajouter au panier » pour l’enregistrer dans sa sélection.
 Un message de confirmation s’affiche pour indiquer que l’ajout a été effectué avec succès.
 Plus tard, il pourra retrouver ce produit dans son panier pour finaliser son achat.
@@ -82,6 +86,23 @@ Plus tard, il pourra retrouver ce produit dans son panier pour finaliser son ach
 ![image](https://github.com/user-attachments/assets/ca82ba4f-b91f-459a-bcac-a0129cf618d9)
 
 #  Page Panire
+Cette page affiche les produits ajoutés au panier avec leurs détails.
+L’utilisateur peut modifier les quantités, ce qui met à jour automatiquement le total.
+Il peut aussi supprimer un produit ou finaliser l’achat via le bouton « Passer la commande
+![image](https://github.com/user-attachments/assets/8d824800-b8d4-49dd-94a9-944116f8ed91)
+
+-->En cliquant sur « Passer la commande », l’utilisateur accède à un formulaire où il saisit son nom, email, adresse et mode de paiement.
+Une fois rempli, il clique sur « Continuer » pour valider sa commande.
+![image](https://github.com/user-attachments/assets/1b498c76-dce9-401a-87c9-14c1c0d05147)
+-->Après avoir rempli le formulaire et choisi le paiement par carte, l’utilisateur est redirigé vers une page dédiée.
+Il y saisit le numéro de carte, la date d’expiration et le code CVV, puis clique sur « Payer ».
+Un message de confirmation s’affiche pour valider le paiement et finaliser la commande.
+![image](https://github.com/user-attachments/assets/02642ff1-6d5c-494b-a485-d3c4ddc3d736)
+-->Une fois que l’utilisateur clique sur « OK » dans le message de confirmation, un reçu s’affiche.
+Il récapitule les informations fournies ainsi que les détails des produits achetés : quantités et montant total payé.
+![image](https://github.com/user-attachments/assets/8309089d-e49d-4aca-acad-cdcf8a8e9f17)
+
+
 
 
 
