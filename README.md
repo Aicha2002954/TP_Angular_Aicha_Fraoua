@@ -4,12 +4,27 @@
 Passionisse est une application Angular pour la vente de chaussures féminines (talons, sandales, bottes). Elle permet de consulter un catalogue, voir les détails et gérer un panier.
 Elle s’appuie sur une API Express en JSON et un serveur Node.js (server.js) pour l’hébergement ou le déploiement.
 
-#Technologies utilisées 
+# Technologies utilisées 
 Angular (frontend)
 Node.js & Express (backend)
 JSON (format des données
-# Page Home
-<img width="928" alt="home1" src="https://github.com/user-attachments/assets/ba2daffb-417b-46a0-a545-330693ecfd52" />
+# Installation
+Installer les dépendances
+npm install
+# Lancement
+A-->Lancer l’application
+1-Ouvres terminal
+2-lancre avec commende "ng serve"
+![image](https://github.com/user-attachments/assets/64391980-575c-4f29-9c4c-0ca37eb52a88)
+B-->Lancer l’application
+1-Dnas un autre terminal 
+2-lancre avec commende "ng npm start"
+![image](https://github.com/user-attachments/assets/cf32f6b7-a63e-443d-a9da-931cc40e86ed)
+# page d'Accueil
+
+![image](https://github.com/user-attachments/assets/751efceb-c2ff-459c-bddf-c95b6c953571)
+
+
 
 <img width="917" alt="home2" src="https://github.com/user-attachments/assets/8e18eb92-e462-4852-b08c-246a22ddcea4" />
 
