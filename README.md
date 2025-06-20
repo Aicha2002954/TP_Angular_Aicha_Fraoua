@@ -1,6 +1,6 @@
 
 # Aicha Fraoua DCC0027/24
-#👠 Passionisse-Chaussures élégantes pour femmes – en ligne
+# 👠 Passionisse-Chaussures élégantes pour femmes – en ligne
 Passionisse est une application Angular pour la vente de chaussures féminines (talons, sandales, bottes). Elle permet de consulter un catalogue, voir les détails et gérer un panier.
 Elle s’appuie sur une API Express en JSON et un serveur Node.js (server.js) pour l’hébergement ou le déploiement.
 
@@ -54,21 +54,28 @@ Cette structure assure une navigation claire et une expérience d’achat agréa
 ![image](https://github.com/user-attachments/assets/39950171-74db-4a83-9cc4-7bd2e72ffc54)
 -->	Une fois que l’utilisateur modifie ses informations personnelles et clique sur le bouton « Mettre à jour », un message de confirmation s’affiche à l’écran pour lui indiquer que les modifications ont été enregistrées avec succès.
 ![image](https://github.com/user-attachments/assets/0e7d6595-c888-4464-ae38-cfddc5a93848)
+# Page de produits favoris
+Cette page affiche tous les produits que l’utilisateur a ajoutés à ses favoris après avoir cliqué sur l’icône correspondante
+![image](https://github.com/user-attachments/assets/7abaf28e-8c5d-4835-bc1d-5f0c0333c9ba)
 
-#  Page Catalog
-
-
+# Page des listes des produits
+Cette page présente tous les produits disponibles dans Passionisse.
+Elle offre un champ de recherche pour filtrer par titre ou catégorie, avec un classement par type : talons hauts, chaussures plates, bottes.
+Chaque produit affiche son nom, prix, un bouton détail, et une icône favoris pour l’ajouter à la liste de souhaits.
+![image](https://github.com/user-attachments/assets/b6a4a6e2-262d-4f36-a010-3d65d7cde55a)
+-->	Lorsqu’un utilisateur clique sur une catégorie spécifique,la page affiche automatiquement tous les produits appartenant à ce type
+![image](https://github.com/user-attachments/assets/28fe28fd-1c33-4baa-b39a-2f75e1efd8ea)
+-->Lorsqu’une recherche est effectuée par titre ou par catégorie,la page affiche automatiquement tous les produits correspondant à ce critère
+![image](https://github.com/user-attachments/assets/11a5316e-f075-4c14-a27d-90a60b211159)
+-->En cliquant sur le bouton " Voir Détail", l’utilisateur accède à une page affichant le titre, le prix, la catégorie et une description complète du produit.
+![image](https://github.com/user-attachments/assets/db981184-ee2e-45d8-a108-ce1e2d824793)
+ --> En cliqaunt cliquer sur le bouton « Ajouter au panier » pour l’enregistrer dans sa sélection.
+Un message de confirmation s’affiche pour indiquer que l’ajout a été effectué avec succès.
+Plus tard, il pourra retrouver ce produit dans son panier pour finaliser son achat.
+![image](https://github.com/user-attachments/assets/ca82ba4f-b91f-459a-bcac-a0129cf618d9)
 
 #  Page Panire
 
-
-#  Page login
-
-<img width="916" alt="login3" src="https://github.com/user-attachments/assets/8a70e81b-b82f-4d5f-a9ac-479498930cf5" />
-
-
-
-<img width="916" alt="login5" src="https://github.com/user-attachments/assets/57228c63-c7b6-4cc4-b6f2-35459fe117d7" />
 
 
 
