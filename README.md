@@ -35,7 +35,25 @@ Cette structure assure une navigation claire et une expérience d’achat agréa
 ![image](https://github.com/user-attachments/assets/b98c5f50-ba7b-41f6-bbaa-0cfa611bf6b7)
 
 # page d'inscription
+![image](https://github.com/user-attachments/assets/f4066dce-39f9-4f65-82bd-46cf12881860)
+
+![image](https://github.com/user-attachments/assets/6f542536-9a4e-4184-b20a-d1293186c07c)
+-->	Si le mot de passe n'est pas confirmé, un message d'erreur s'affichera. 
+![image](https://github.com/user-attachments/assets/bedfd3b7-7a33-4ce5-9e31-c825517e0337)
+-->	Si l’utilisateur déjà crée, un message d'erreur s'affichera. 
+![image](https://github.com/user-attachments/assets/67b07f4a-6a6f-4f43-82b7-31661d85d80d)
+
 # Page de connexion
+![image](https://github.com/user-attachments/assets/0f7aaf12-afc6-4791-a92c-7d0a21c0f846)
+-->Le contrôle côté client vérifie que les champs essentiels (email et mot de passe) sont correctement renseignés avant la soumission, en affichant des messages d’erreur spécifiques selon le cas.
+![image](https://github.com/user-attachments/assets/627a60d3-5d31-4b2f-ad1f-8e97e8e2a2a5)
+-->En cas d’erreur dans l’adresse email ou le mot de passe, un message d’alerte s’affiche pour informer l’utilisateur que les informations saisies sont incorrectes.
+![image](https://github.com/user-attachments/assets/8c95e257-4e8a-4809-8c8e-40109acb82ea)
+
+# Page Mon Profile
+![image](https://github.com/user-attachments/assets/39950171-74db-4a83-9cc4-7bd2e72ffc54)
+-->	Une fois que l’utilisateur modifie ses informations personnelles et clique sur le bouton « Mettre à jour », un message de confirmation s’affiche à l’écran pour lui indiquer que les modifications ont été enregistrées avec succès.
+![image](https://github.com/user-attachments/assets/0e7d6595-c888-4464-ae38-cfddc5a93848)
 
 #  Page Catalog
 
