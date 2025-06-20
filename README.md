@@ -20,8 +20,9 @@ A-->Lancer l’application
 
 B-->Lancer l’application
 1-Dnas un autre terminal 
-2-lancre avec commende "ng npm start"
-![image](https://github.com/user-attachments/assets/cf32f6b7-a63e-443d-a9da-931cc40e86ed)
+2-lancre avec commende "node index.js"
+![image](https://github.com/user-attachments/assets/19a6924d-7f6d-433b-889b-38b41b9c0952)
+
 
 # page d'Accueil
 La page d’accueil de Passionisse offre une expérience utilisateur fluide et élégante, centrée sur la présentation des chaussures à talons pour femmes.
