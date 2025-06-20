@@ -1,6 +1,12 @@
 # MuFirstProjectAngular
-# AichaFraouaEcommercey
-
+# Aicha Fraoua DCc0027/24
+# Passionisse-Chaussures élégantes pour femmes – en ligne
+Passionisse est une application Angular pour la vente de chaussures féminines (talons, sandales, bottes). Elle permet de consulter un catalogue, voir les détails et gérer un panier.
+Elle s’appuie sur une API Express en JSON et un serveur Node.js (server.js) pour l’hébergement ou le déploiement.
+#Technologies utilisées 
+Angular (frontend)
+Node.js & Express (backend)
+JSON (format des données
 # Page Home
 <img width="928" alt="home1" src="https://github.com/user-attachments/assets/ba2daffb-417b-46a0-a545-330693ecfd52" />
 
