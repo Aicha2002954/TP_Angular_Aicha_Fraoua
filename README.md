@@ -20,13 +20,14 @@ A-->Lancer l’application
 
 ![image](https://github.com/user-attachments/assets/64391980-575c-4f29-9c4c-0ca37eb52a88)
 ![image](https://github.com/user-attachments/assets/ba590cb5-20b7-4486-a79e-67fc892b24c6)
-B-->Lancer l’application
+B-->Lancer serveur-api 
 
 1-Dnas un autre terminal 
 
-2-lancre avec commende "node index.js"
+2-lancre avec commende "npm start"
 
-![image](https://github.com/user-attachments/assets/19a6924d-7f6d-433b-889b-38b41b9c0952)
+![image](https://github.com/user-attachments/assets/80bcae4f-9b84-4c87-95f2-968ec3d71f86)
+
 
 
 # page d'Accueil
