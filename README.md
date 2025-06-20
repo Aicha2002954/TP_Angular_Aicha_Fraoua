@@ -13,14 +13,19 @@ Installer les dépendances
 npm install
 # Lancement
 A-->Lancer l’application
+
 1-Ouvres terminal
+
 2-lancre avec commende "ng serve"
+
 ![image](https://github.com/user-attachments/assets/64391980-575c-4f29-9c4c-0ca37eb52a88)
 ![image](https://github.com/user-attachments/assets/ba590cb5-20b7-4486-a79e-67fc892b24c6)
-
 B-->Lancer l’application
+
 1-Dnas un autre terminal 
+
 2-lancre avec commende "node index.js"
+
 ![image](https://github.com/user-attachments/assets/19a6924d-7f6d-433b-889b-38b41b9c0952)
 
 
