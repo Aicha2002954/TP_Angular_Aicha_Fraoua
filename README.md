@@ -1,6 +1,6 @@
 
 # Aicha Fraoua DCC0027/24
-# Passionisse-Chaussures élégantes pour femmes – en ligne
+#👠 Passionisse-Chaussures élégantes pour femmes – en ligne
 Passionisse est une application Angular pour la vente de chaussures féminines (talons, sandales, bottes). Elle permet de consulter un catalogue, voir les détails et gérer un panier.
 Elle s’appuie sur une API Express en JSON et un serveur Node.js (server.js) pour l’hébergement ou le déploiement.
 
@@ -24,13 +24,18 @@ B-->Lancer l’application
 ![image](https://github.com/user-attachments/assets/cf32f6b7-a63e-443d-a9da-931cc40e86ed)
 
 # page d'Accueil
-![image](https://github.com/user-attachments/assets/6642c2f6-710f-4136-9efb-3fe7f61dd7ce)
-
+La page d’accueil de Passionisse offre une expérience utilisateur fluide et élégante, centrée sur la présentation des chaussures à talons pour femmes.
+L’en-tête comprend le logo Passionisse à gauche, pour un retour rapide à l’accueil, ainsi que des icônes à droite pour accéder à la page principale, aux catégories, aux favoris, au profil utilisateur (avec options de connexion ou accès au profil selon le statut), et au panier.
+Sous la barre principale, une sélection de chaussures est affichée dans des cartes présentant l’image, le nom, le prix actuel, l’ancien prix en cas de promotion, et le pourcentage de remise, avec une option pour ajouter aux favoris.
+Cette structure assure une navigation claire et une expérience d’achat agréable et efficace.
+![image](https://github.com/user-attachments/assets/46faf0b5-4435-4dee-bae2-da11db5c794e)
 ![image](https://github.com/user-attachments/assets/53f51208-3b38-4aa7-8c47-832d89c1ea38)
 ![image](https://github.com/user-attachments/assets/2c22cb79-44e0-4359-9556-ca51d2828531)
 ![image](https://github.com/user-attachments/assets/173e66e2-66d0-4198-b238-153931f6f9ec)
 ![image](https://github.com/user-attachments/assets/b98c5f50-ba7b-41f6-bbaa-0cfa611bf6b7)
 
+# page d'inscription
+# Page de connexion
 
 #  Page Catalog
 
