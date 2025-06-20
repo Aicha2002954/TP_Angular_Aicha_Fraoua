@@ -16,6 +16,8 @@ A-->Lancer l’application
 1-Ouvres terminal
 2-lancre avec commende "ng serve"
 ![image](https://github.com/user-attachments/assets/64391980-575c-4f29-9c4c-0ca37eb52a88)
+![image](https://github.com/user-attachments/assets/ba590cb5-20b7-4486-a79e-67fc892b24c6)
+
 B-->Lancer l’application
 1-Dnas un autre terminal 
 2-lancre avec commende "ng npm start"
@@ -26,16 +28,13 @@ B-->Lancer l’application
 
 
 
-<img width="917" alt="home2" src="https://github.com/user-attachments/assets/8e18eb92-e462-4852-b08c-246a22ddcea4" />
-
-<img width="923" alt="home3" src="https://github.com/user-attachments/assets/30f9f184-8405-4a0f-833e-ce1fa130a2fd" />
-
 <img width="922" alt="home4" src="https://github.com/user-attachments/assets/e30a7d6b-b51a-4282-900e-6d16ecc23771" />
 
 #  Page Catalog
 
 <img width="920" alt="catalog1" src="https://github.com/user-attachments/assets/67fe47de-3c41-4b98-a405-639416e2ff71" />
 
+![image](https://github.com/user-attachments/assets/b4fb6693-2efc-419b-91d8-045a583f2832)
 
 <img width="920" alt="catalo2" src="https://github.com/user-attachments/assets/84948288-4cc7-4187-ba1b-f8816631edf1" />
 
