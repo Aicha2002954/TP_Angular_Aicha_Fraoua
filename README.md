@@ -100,6 +100,7 @@ Un message de confirmation s’affiche pour valider le paiement et finaliser la 
 ![image](https://github.com/user-attachments/assets/02642ff1-6d5c-494b-a485-d3c4ddc3d736)
 -->Une fois que l’utilisateur clique sur « OK » dans le message de confirmation, un reçu s’affiche.
 Il récapitule les informations fournies ainsi que les détails des produits achetés : quantités et montant total payé.
+![image](https://github.com/user-attachments/assets/f91cc524-0b94-4e72-b709-3ca16038da80)
 ![image](https://github.com/user-attachments/assets/8309089d-e49d-4aca-acad-cdcf8a8e9f17)
 
 
