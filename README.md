@@ -6,7 +6,9 @@ Elle s’appuie sur une API Express en JSON et un serveur Node.js (server.js) po
 
 # Technologies utilisées 
 Angular (frontend)
+
 Node.js & Express (backend)
+
 JSON (format des données
 # Installation
 Installer les dépendances
@@ -35,6 +37,7 @@ La page d’accueil de Passionisse offre une expérience utilisateur fluide et �
 L’en-tête comprend le logo Passionisse à gauche, pour un retour rapide à l’accueil, ainsi que des icônes à droite pour accéder à la page principale, aux catégories, aux favoris, au profil utilisateur (avec options de connexion ou accès au profil selon le statut), et au panier.
 Sous la barre principale, une sélection de chaussures est affichée dans des cartes présentant l’image, le nom, le prix actuel, l’ancien prix en cas de promotion, et le pourcentage de remise, avec une option pour ajouter aux favoris.
 Cette structure assure une navigation claire et une expérience d’achat agréable et efficace.
+
 ![image](https://github.com/user-attachments/assets/46faf0b5-4435-4dee-bae2-da11db5c794e)
 ![image](https://github.com/user-attachments/assets/53f51208-3b38-4aa7-8c47-832d89c1ea38)
 ![image](https://github.com/user-attachments/assets/2c22cb79-44e0-4359-9556-ca51d2828531)
@@ -46,15 +49,20 @@ Cette structure assure une navigation claire et une expérience d’achat agréa
 
 ![image](https://github.com/user-attachments/assets/6f542536-9a4e-4184-b20a-d1293186c07c)
 -->	Si le mot de passe n'est pas confirmé, un message d'erreur s'affichera. 
+
 ![image](https://github.com/user-attachments/assets/bedfd3b7-7a33-4ce5-9e31-c825517e0337)
 -->	Si l’utilisateur déjà crée, un message d'erreur s'affichera. 
+
 ![image](https://github.com/user-attachments/assets/67b07f4a-6a6f-4f43-82b7-31661d85d80d)
 
 # Page de connexion
 ![image](https://github.com/user-attachments/assets/0f7aaf12-afc6-4791-a92c-7d0a21c0f846)
+
 -->Le contrôle côté client vérifie que les champs essentiels (email et mot de passe) sont correctement renseignés avant la soumission, en affichant des messages d’erreur spécifiques selon le cas.
 ![image](https://github.com/user-attachments/assets/627a60d3-5d31-4b2f-ad1f-8e97e8e2a2a5)
+
 -->En cas d’erreur dans l’adresse email ou le mot de passe, un message d’alerte s’affiche pour informer l’utilisateur que les informations saisies sont incorrectes.
+
 ![image](https://github.com/user-attachments/assets/8c95e257-4e8a-4809-8c8e-40109acb82ea)
 
 # Page Mon Profile
@@ -65,6 +73,7 @@ Cette structure assure une navigation claire et une expérience d’achat agréa
 ![image](https://github.com/user-attachments/assets/0e7d6595-c888-4464-ae38-cfddc5a93848)
 # Page de produits favoris
 Cette page affiche tous les produits que l’utilisateur a ajoutés à ses favoris après avoir cliqué sur l’icône correspondante
+
 ![image](https://github.com/user-attachments/assets/7abaf28e-8c5d-4835-bc1d-5f0c0333c9ba)
 
 # Page des listes des produits
@@ -78,6 +87,7 @@ Chaque produit affiche son nom, prix, un bouton détail, et une icône favoris p
 -->	Lorsqu’un utilisateur clique sur une catégorie spécifique,la page affiche automatiquement tous les produits appartenant à ce type
 
 ![image](https://github.com/user-attachments/assets/28fe28fd-1c33-4baa-b39a-2f75e1efd8ea)
+
 -->Lorsqu’une recherche est effectuée par titre ou par catégorie,la page affiche automatiquement tous les produits correspondant à ce critère
 
 ![image](https://github.com/user-attachments/assets/11a5316e-f075-4c14-a27d-90a60b211159)
@@ -96,17 +106,23 @@ Plus tard, il pourra retrouver ce produit dans son panier pour finaliser son ach
 Cette page affiche les produits ajoutés au panier avec leurs détails.
 L’utilisateur peut modifier les quantités, ce qui met à jour automatiquement le total.
 Il peut aussi supprimer un produit ou finaliser l’achat via le bouton « Passer la commande
+
 ![image](https://github.com/user-attachments/assets/8d824800-b8d4-49dd-94a9-944116f8ed91)
 
 -->En cliquant sur « Passer la commande », l’utilisateur accède à un formulaire où il saisit son nom, email, adresse et mode de paiement.
 Une fois rempli, il clique sur « Continuer » pour valider sa commande.
+
 ![image](https://github.com/user-attachments/assets/1b498c76-dce9-401a-87c9-14c1c0d05147)
+
 -->Après avoir rempli le formulaire et choisi le paiement par carte, l’utilisateur est redirigé vers une page dédiée.
 Il y saisit le numéro de carte, la date d’expiration et le code CVV, puis clique sur « Payer ».
 Un message de confirmation s’affiche pour valider le paiement et finaliser la commande.
+
 ![image](https://github.com/user-attachments/assets/02642ff1-6d5c-494b-a485-d3c4ddc3d736)
+
 -->Une fois que l’utilisateur clique sur « OK » dans le message de confirmation, un reçu s’affiche.
 Il récapitule les informations fournies ainsi que les détails des produits achetés : quantités et montant total payé.
+
 ![image](https://github.com/user-attachments/assets/f91cc524-0b94-4e72-b709-3ca16038da80)
 ![image](https://github.com/user-attachments/assets/8309089d-e49d-4aca-acad-cdcf8a8e9f17)
 
