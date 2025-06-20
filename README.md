@@ -24,38 +24,22 @@ B-->Lancer l’application
 ![image](https://github.com/user-attachments/assets/cf32f6b7-a63e-443d-a9da-931cc40e86ed)
 
 # page d'Accueil
+![image](https://github.com/user-attachments/assets/6642c2f6-710f-4136-9efb-3fe7f61dd7ce)
 
-![image](https://github.com/user-attachments/assets/751efceb-c2ff-459c-bddf-c95b6c953571)
-
-![image](https://github.com/user-attachments/assets/f3f14858-e37a-4ead-b323-7462dd192347)
-
-![image](https://github.com/user-attachments/assets/40c9efdd-4e29-4fef-9999-2c639dfe4383)
-
+![image](https://github.com/user-attachments/assets/53f51208-3b38-4aa7-8c47-832d89c1ea38)
+![image](https://github.com/user-attachments/assets/2c22cb79-44e0-4359-9556-ca51d2828531)
+![image](https://github.com/user-attachments/assets/173e66e2-66d0-4198-b238-153931f6f9ec)
+![image](https://github.com/user-attachments/assets/b98c5f50-ba7b-41f6-bbaa-0cfa611bf6b7)
 
 
 #  Page Catalog
 
-<img width="920" alt="catalog1" src="https://github.com/user-attachments/assets/67fe47de-3c41-4b98-a405-639416e2ff71" />
 
-
-<img width="920" alt="catalo2" src="https://github.com/user-attachments/assets/84948288-4cc7-4187-ba1b-f8816631edf1" />
-
-
-<img width="918" alt="catalog3" src="https://github.com/user-attachments/assets/439aa93e-f2b8-4593-b470-151b695ba642" />
-
-<img width="926" alt="catalog4" src="https://github.com/user-attachments/assets/e3016414-b3f3-4600-8d38-fbd68711dd73" />
 
 #  Page Panire
 
-<img width="926" alt="panier1" src="https://github.com/user-attachments/assets/b0e3c517-226d-4d15-9428-b28e0a9632c9" />
 
-<img width="913" alt="panier2" src="https://github.com/user-attachments/assets/d23e8616-9db3-471c-ac2d-a3bc2fadcd67" />
 #  Page login
-<img width="914" alt="login1" src="https://github.com/user-attachments/assets/2249ad80-4c63-4ceb-afa3-746426d440a1" />
-
-<img width="916" alt="login5" src="https://github.com/user-attachments/assets/9601441f-aedb-4bde-a596-a994fbfae23b" />
-
-
 
 <img width="916" alt="login3" src="https://github.com/user-attachments/assets/8a70e81b-b82f-4d5f-a9ac-479498930cf5" />
 
